@@ -1,0 +1,4422 @@
+ccopy_reg
+_reconstructor
+p1
+(cpandas.core.frame
+DataFrame
+p2
+c__builtin__
+object
+p3
+NtRp4
+(dp5
+S'_metadata'
+p6
+(lp7
+sS'_typ'
+p8
+S'dataframe'
+p9
+sS'_data'
+p10
+g1
+(cpandas.core.internals
+BlockManager
+p11
+g3
+NtRp12
+((lp13
+cpandas.core.index
+_new_Index
+p14
+(cpandas.core.index
+Index
+p15
+(dp16
+S'data'
+p17
+cnumpy.core.multiarray
+_reconstruct
+p18
+(cnumpy
+ndarray
+p19
+(I0
+tS'b'
+tRp20
+(I1
+(L5L
+tcnumpy
+dtype
+p21
+(S'O8'
+I0
+I1
+tRp22
+(I3
+S'|'
+NNNI-1
+I-1
+I63
+tbI00
+(lp23
+S'map'
+p24
+aS'A'
+aS'B'
+aS'C'
+aS'wholeThing'
+p25
+atbsS'name'
+p26
+NstRp27
+ag14
+(cpandas.core.index
+Int64Index
+p28
+(dp29
+g17
+g18
+(g19
+(I0
+tS'b'
+tRp30
+(I1
+(L541L
+tg21
+(S'i8'
+I0
+I1
+tRp31
+(I3
+S'<'
+NNNI-1
+I-1
+I0
+tbI00
+S'\x08\x00\x00\x00\x00\x00\x00\x00\t\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x00\x00\x00\x0b\x00\x00\x00\x00\x00\x00\x00\x0c\x00\x00\x00\x00\x00\x00\x00\r\x00\x00\x00\x00\x00\x00\x00\x0e\x00\x00\x00\x00\x00\x00\x00\x0f\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x11\x00\x00\x00\x00\x00\x00\x00\x12\x00\x00\x00\x00\x00\x00\x00\x13\x00\x00\x00\x00\x00\x00\x00\x14\x00\x00\x00\x00\x00\x00\x00\x15\x00\x00\x00\x00\x00\x00\x00\x16\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x00\x00\x00\x00\x00\x18\x00\x00\x00\x00\x00\x00\x00\x19\x00\x00\x00\x00\x00\x00\x00\x1a\x00\x00\x00\x00\x00\x00\x00\x1b\x00\x00\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x1d\x00\x00\x00\x00\x00\x00\x00\x1e\x00\x00\x00\x00\x00\x00\x00\x1f\x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00!\x00\x00\x00\x00\x00\x00\x00"\x00\x00\x00\x00\x00\x00\x00#\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x00\x00\x00\x00\x00%\x00\x00\x00\x00\x00\x00\x00&\x00\x00\x00\x00\x00\x00\x00\'\x00\x00\x00\x00\x00\x00\x00(\x00\x00\x00\x00\x00\x00\x00)\x00\x00\x00\x00\x00\x00\x00*\x00\x00\x00\x00\x00\x00\x00+\x00\x00\x00\x00\x00\x00\x00,\x00\x00\x00\x00\x00\x00\x00-\x00\x00\x00\x00\x00\x00\x00.\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x00\x00\x00\x000\x00\x00\x00\x00\x00\x00\x001\x00\x00\x00\x00\x00\x00\x002\x00\x00\x00\x00\x00\x00\x003\x00\x00\x00\x00\x00\x00\x004\x00\x00\x00\x00\x00\x00\x005\x00\x00\x00\x00\x00\x00\x006\x00\x00\x00\x00\x00\x00\x007\x00\x00\x00\x00\x00\x00\x008\x00\x00\x00\x00\x00\x00\x009\x00\x00\x00\x00\x00\x00\x00:\x00\x00\x00\x00\x00\x00\x00;\x00\x00\x00\x00\x00\x00\x00<\x00\x00\x00\x00\x00\x00\x00=\x00\x00\x00\x00\x00\x00\x00>\x00\x00\x00\x00\x00\x00\x00?\x00\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00A\x00\x00\x00\x00\x00\x00\x00B\x00\x00\x00\x00\x00\x00\x00C\x00\x00\x00\x00\x00\x00\x00D\x00\x00\x00\x00\x00\x00\x00E\x00\x00\x00\x00\x00\x00\x00F\x00\x00\x00\x00\x00\x00\x00G\x00\x00\x00\x00\x00\x00\x00H\x00\x00\x00\x00\x00\x00\x00I\x00\x00\x00\x00\x00\x00\x00J\x00\x00\x00\x00\x00\x00\x00K\x00\x00\x00\x00\x00\x00\x00L\x00\x00\x00\x00\x00\x00\x00M\x00\x00\x00\x00\x00\x00\x00N\x00\x00\x00\x00\x00\x00\x00O\x00\x00\x00\x00\x00\x00\x00P\x00\x00\x00\x00\x00\x00\x00Q\x00\x00\x00\x00\x00\x00\x00R\x00\x00\x00\x00\x00\x00\x00S\x00\x00\x00\x00\x00\x00\x00T\x00\x00\x00\x00\x00\x00\x00U\x00\x00\x00\x00\x00\x00\x00V\x00\x00\x00\x00\x00\x00\x00W\x00\x00\x00\x00\x00\x00\x00X\x00\x00\x00\x00\x00\x00\x00Y\x00\x00\x00\x00\x00\x00\x00Z\x00\x00\x00\x00\x00\x00\x00[\x00\x00\x00\x00\x00\x00\x00\\\x00\x00\x00\x00\x00\x00\x00]\x00\x00\x00\x00\x00\x00\x00^\x00\x00\x00\x00\x00\x00\x00_\x00\x00\x00\x00\x00\x00\x00`\x00\x00\x00\x00\x00\x00\x00a\x00\x00\x00\x00\x00\x00\x00b\x00\x00\x00\x00\x00\x00\x00c\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x00\x00\x00\x00e\x00\x00\x00\x00\x00\x00\x00f\x00\x00\x00\x00\x00\x00\x00g\x00\x00\x00\x00\x00\x00\x00h\x00\x00\x00\x00\x00\x00\x00i\x00\x00\x00\x00\x00\x00\x00j\x00\x00\x00\x00\x00\x00\x00k\x00\x00\x00\x00\x00\x00\x00l\x00\x00\x00\x00\x00\x00\x00m\x00\x00\x00\x00\x00\x00\x00n\x00\x00\x00\x00\x00\x00\x00o\x00\x00\x00\x00\x00\x00\x00p\x00\x00\x00\x00\x00\x00\x00q\x00\x00\x00\x00\x00\x00\x00r\x00\x00\x00\x00\x00\x00\x00s\x00\x00\x00\x00\x00\x00\x00t\x00\x00\x00\x00\x00\x00\x00u\x00\x00\x00\x00\x00\x00\x00v\x00\x00\x00\x00\x00\x00\x00w\x00\x00\x00\x00\x00\x00\x00x\x00\x00\x00\x00\x00\x00\x00y\x00\x00\x00\x00\x00\x00\x00z\x00\x00\x00\x00\x00\x00\x00{\x00\x00\x00\x00\x00\x00\x00|\x00\x00\x00\x00\x00\x00\x00}\x00\x00\x00\x00\x00\x00\x00~\x00\x00\x00\x00\x00\x00\x00\x7f\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x82\x00\x00\x00\x00\x00\x00\x00\x83\x00\x00\x00\x00\x00\x00\x00\x84\x00\x00\x00\x00\x00\x00\x00\x85\x00\x00\x00\x00\x00\x00\x00\x86\x00\x00\x00\x00\x00\x00\x00\x87\x00\x00\x00\x00\x00\x00\x00\x88\x00\x00\x00\x00\x00\x00\x00\x89\x00\x00\x00\x00\x00\x00\x00\x8a\x00\x00\x00\x00\x00\x00\x00\x8b\x00\x00\x00\x00\x00\x00\x00\x8c\x00\x00\x00\x00\x00\x00\x00\x8d\x00\x00\x00\x00\x00\x00\x00\x8e\x00\x00\x00\x00\x00\x00\x00\x8f\x00\x00\x00\x00\x00\x00\x00\x90\x00\x00\x00\x00\x00\x00\x00\x91\x00\x00\x00\x00\x00\x00\x00\x92\x00\x00\x00\x00\x00\x00\x00\x93\x00\x00\x00\x00\x00\x00\x00\x94\x00\x00\x00\x00\x00\x00\x00\x95\x00\x00\x00\x00\x00\x00\x00\x96\x00\x00\x00\x00\x00\x00\x00\x97\x00\x00\x00\x00\x00\x00\x00\x98\x00\x00\x00\x00\x00\x00\x00\x99\x00\x00\x00\x00\x00\x00\x00\x9a\x00\x00\x00\x00\x00\x00\x00\x9b\x00\x00\x00\x00\x00\x00\x00\x9c\x00\x00\x00\x00\x00\x00\x00\x9d\x00\x00\x00\x00\x00\x00\x00\x9e\x00\x00\x00\x00\x00\x00\x00\x9f\x00\x00\x00\x00\x00\x00\x00\xa0\x00\x00\x00\x00\x00\x00\x00\xa1\x00\x00\x00\x00\x00\x00\x00\xa2\x00\x00\x00\x00\x00\x00\x00\xa3\x00\x00\x00\x00\x00\x00\x00\xa4\x00\x00\x00\x00\x00\x00\x00\xa5\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\x00\x00\x00\x00\xa7\x00\x00\x00\x00\x00\x00\x00\xa8\x00\x00\x00\x00\x00\x00\x00\xa9\x00\x00\x00\x00\x00\x00\x00\xaa\x00\x00\x00\x00\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\xac\x00\x00\x00\x00\x00\x00\x00\xad\x00\x00\x00\x00\x00\x00\x00\xae\x00\x00\x00\x00\x00\x00\x00\xaf\x00\x00\x00\x00\x00\x00\x00\xb0\x00\x00\x00\x00\x00\x00\x00\xb1\x00\x00\x00\x00\x00\x00\x00\xb2\x00\x00\x00\x00\x00\x00\x00\xb3\x00\x00\x00\x00\x00\x00\x00\xb4\x00\x00\x00\x00\x00\x00\x00\xb5\x00\x00\x00\x00\x00\x00\x00\xb6\x00\x00\x00\x00\x00\x00\x00\xb7\x00\x00\x00\x00\x00\x00\x00\xb8\x00\x00\x00\x00\x00\x00\x00\xb9\x00\x00\x00\x00\x00\x00\x00\xba\x00\x00\x00\x00\x00\x00\x00\xbb\x00\x00\x00\x00\x00\x00\x00\xbc\x00\x00\x00\x00\x00\x00\x00\xbd\x00\x00\x00\x00\x00\x00\x00\xbe\x00\x00\x00\x00\x00\x00\x00\xbf\x00\x00\x00\x00\x00\x00\x00\xc0\x00\x00\x00\x00\x00\x00\x00\xc1\x00\x00\x00\x00\x00\x00\x00\xc2\x00\x00\x00\x00\x00\x00\x00\xc3\x00\x00\x00\x00\x00\x00\x00\xc4\x00\x00\x00\x00\x00\x00\x00\xc5\x00\x00\x00\x00\x00\x00\x00\xc7\x00\x00\x00\x00\x00\x00\x00\xc8\x00\x00\x00\x00\x00\x00\x00\xc9\x00\x00\x00\x00\x00\x00\x00\xca\x00\x00\x00\x00\x00\x00\x00\xcb\x00\x00\x00\x00\x00\x00\x00\xcc\x00\x00\x00\x00\x00\x00\x00\xcd\x00\x00\x00\x00\x00\x00\x00\xce\x00\x00\x00\x00\x00\x00\x00\xcf\x00\x00\x00\x00\x00\x00\x00\xd0\x00\x00\x00\x00\x00\x00\x00\xd1\x00\x00\x00\x00\x00\x00\x00\xd2\x00\x00\x00\x00\x00\x00\x00\xd3\x00\x00\x00\x00\x00\x00\x00\xd4\x00\x00\x00\x00\x00\x00\x00\xd5\x00\x00\x00\x00\x00\x00\x00\xd6\x00\x00\x00\x00\x00\x00\x00\xd7\x00\x00\x00\x00\x00\x00\x00\xd8\x00\x00\x00\x00\x00\x00\x00\xd9\x00\x00\x00\x00\x00\x00\x00\xda\x00\x00\x00\x00\x00\x00\x00\xdb\x00\x00\x00\x00\x00\x00\x00\xdc\x00\x00\x00\x00\x00\x00\x00\xdd\x00\x00\x00\x00\x00\x00\x00\xde\x00\x00\x00\x00\x00\x00\x00\xdf\x00\x00\x00\x00\x00\x00\x00\xe0\x00\x00\x00\x00\x00\x00\x00\xe1\x00\x00\x00\x00\x00\x00\x00\xe3\x00\x00\x00\x00\x00\x00\x00\xe4\x00\x00\x00\x00\x00\x00\x00\xe5\x00\x00\x00\x00\x00\x00\x00\xe6\x00\x00\x00\x00\x00\x00\x00\xe7\x00\x00\x00\x00\x00\x00\x00\xe8\x00\x00\x00\x00\x00\x00\x00\xe9\x00\x00\x00\x00\x00\x00\x00\xea\x00\x00\x00\x00\x00\x00\x00\xeb\x00\x00\x00\x00\x00\x00\x00\xec\x00\x00\x00\x00\x00\x00\x00\xed\x00\x00\x00\x00\x00\x00\x00\xee\x00\x00\x00\x00\x00\x00\x00\xef\x00\x00\x00\x00\x00\x00\x00\xf0\x00\x00\x00\x00\x00\x00\x00\xf1\x00\x00\x00\x00\x00\x00\x00\xf2\x00\x00\x00\x00\x00\x00\x00\xf3\x00\x00\x00\x00\x00\x00\x00\xf4\x00\x00\x00\x00\x00\x00\x00\xf5\x00\x00\x00\x00\x00\x00\x00\xf6\x00\x00\x00\x00\x00\x00\x00\xf7\x00\x00\x00\x00\x00\x00\x00\xf8\x00\x00\x00\x00\x00\x00\x00\xf9\x00\x00\x00\x00\x00\x00\x00\xfa\x00\x00\x00\x00\x00\x00\x00\xfb\x00\x00\x00\x00\x00\x00\x00\xfc\x00\x00\x00\x00\x00\x00\x00\xfd\x00\x00\x00\x00\x00\x00\x00\xfe\x00\x00\x00\x00\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x01\x01\x00\x00\x00\x00\x00\x00\x02\x01\x00\x00\x00\x00\x00\x00\x03\x01\x00\x00\x00\x00\x00\x00\x04\x01\x00\x00\x00\x00\x00\x00\x05\x01\x00\x00\x00\x00\x00\x00\x06\x01\x00\x00\x00\x00\x00\x00\x07\x01\x00\x00\x00\x00\x00\x00\x08\x01\x00\x00\x00\x00\x00\x00\t\x01\x00\x00\x00\x00\x00\x00\n\x01\x00\x00\x00\x00\x00\x00\x0c\x01\x00\x00\x00\x00\x00\x00\r\x01\x00\x00\x00\x00\x00\x00\x0e\x01\x00\x00\x00\x00\x00\x00\x0f\x01\x00\x00\x00\x00\x00\x00\x10\x01\x00\x00\x00\x00\x00\x00\x11\x01\x00\x00\x00\x00\x00\x00\x12\x01\x00\x00\x00\x00\x00\x00\x13\x01\x00\x00\x00\x00\x00\x00\x14\x01\x00\x00\x00\x00\x00\x00\x15\x01\x00\x00\x00\x00\x00\x00\x16\x01\x00\x00\x00\x00\x00\x00\x17\x01\x00\x00\x00\x00\x00\x00\x18\x01\x00\x00\x00\x00\x00\x00\x19\x01\x00\x00\x00\x00\x00\x00\x1a\x01\x00\x00\x00\x00\x00\x00\x1b\x01\x00\x00\x00\x00\x00\x00\x1c\x01\x00\x00\x00\x00\x00\x00\x1d\x01\x00\x00\x00\x00\x00\x00\x1e\x01\x00\x00\x00\x00\x00\x00\x1f\x01\x00\x00\x00\x00\x00\x00 \x01\x00\x00\x00\x00\x00\x00!\x01\x00\x00\x00\x00\x00\x00"\x01\x00\x00\x00\x00\x00\x00#\x01\x00\x00\x00\x00\x00\x00$\x01\x00\x00\x00\x00\x00\x00&\x01\x00\x00\x00\x00\x00\x00\'\x01\x00\x00\x00\x00\x00\x00(\x01\x00\x00\x00\x00\x00\x00)\x01\x00\x00\x00\x00\x00\x00*\x01\x00\x00\x00\x00\x00\x00+\x01\x00\x00\x00\x00\x00\x00,\x01\x00\x00\x00\x00\x00\x00-\x01\x00\x00\x00\x00\x00\x00.\x01\x00\x00\x00\x00\x00\x00/\x01\x00\x00\x00\x00\x00\x000\x01\x00\x00\x00\x00\x00\x001\x01\x00\x00\x00\x00\x00\x002\x01\x00\x00\x00\x00\x00\x003\x01\x00\x00\x00\x00\x00\x004\x01\x00\x00\x00\x00\x00\x005\x01\x00\x00\x00\x00\x00\x006\x01\x00\x00\x00\x00\x00\x007\x01\x00\x00\x00\x00\x00\x008\x01\x00\x00\x00\x00\x00\x009\x01\x00\x00\x00\x00\x00\x00:\x01\x00\x00\x00\x00\x00\x00;\x01\x00\x00\x00\x00\x00\x00<\x01\x00\x00\x00\x00\x00\x00=\x01\x00\x00\x00\x00\x00\x00>\x01\x00\x00\x00\x00\x00\x00?\x01\x00\x00\x00\x00\x00\x00@\x01\x00\x00\x00\x00\x00\x00A\x01\x00\x00\x00\x00\x00\x00B\x01\x00\x00\x00\x00\x00\x00C\x01\x00\x00\x00\x00\x00\x00D\x01\x00\x00\x00\x00\x00\x00E\x01\x00\x00\x00\x00\x00\x00F\x01\x00\x00\x00\x00\x00\x00G\x01\x00\x00\x00\x00\x00\x00H\x01\x00\x00\x00\x00\x00\x00I\x01\x00\x00\x00\x00\x00\x00J\x01\x00\x00\x00\x00\x00\x00K\x01\x00\x00\x00\x00\x00\x00L\x01\x00\x00\x00\x00\x00\x00M\x01\x00\x00\x00\x00\x00\x00N\x01\x00\x00\x00\x00\x00\x00O\x01\x00\x00\x00\x00\x00\x00P\x01\x00\x00\x00\x00\x00\x00Q\x01\x00\x00\x00\x00\x00\x00R\x01\x00\x00\x00\x00\x00\x00S\x01\x00\x00\x00\x00\x00\x00T\x01\x00\x00\x00\x00\x00\x00U\x01\x00\x00\x00\x00\x00\x00V\x01\x00\x00\x00\x00\x00\x00W\x01\x00\x00\x00\x00\x00\x00X\x01\x00\x00\x00\x00\x00\x00Y\x01\x00\x00\x00\x00\x00\x00Z\x01\x00\x00\x00\x00\x00\x00[\x01\x00\x00\x00\x00\x00\x00\\\x01\x00\x00\x00\x00\x00\x00]\x01\x00\x00\x00\x00\x00\x00^\x01\x00\x00\x00\x00\x00\x00_\x01\x00\x00\x00\x00\x00\x00`\x01\x00\x00\x00\x00\x00\x00a\x01\x00\x00\x00\x00\x00\x00b\x01\x00\x00\x00\x00\x00\x00c\x01\x00\x00\x00\x00\x00\x00d\x01\x00\x00\x00\x00\x00\x00e\x01\x00\x00\x00\x00\x00\x00f\x01\x00\x00\x00\x00\x00\x00g\x01\x00\x00\x00\x00\x00\x00h\x01\x00\x00\x00\x00\x00\x00i\x01\x00\x00\x00\x00\x00\x00j\x01\x00\x00\x00\x00\x00\x00k\x01\x00\x00\x00\x00\x00\x00l\x01\x00\x00\x00\x00\x00\x00m\x01\x00\x00\x00\x00\x00\x00n\x01\x00\x00\x00\x00\x00\x00o\x01\x00\x00\x00\x00\x00\x00p\x01\x00\x00\x00\x00\x00\x00q\x01\x00\x00\x00\x00\x00\x00r\x01\x00\x00\x00\x00\x00\x00s\x01\x00\x00\x00\x00\x00\x00t\x01\x00\x00\x00\x00\x00\x00u\x01\x00\x00\x00\x00\x00\x00v\x01\x00\x00\x00\x00\x00\x00w\x01\x00\x00\x00\x00\x00\x00x\x01\x00\x00\x00\x00\x00\x00y\x01\x00\x00\x00\x00\x00\x00{\x01\x00\x00\x00\x00\x00\x00|\x01\x00\x00\x00\x00\x00\x00}\x01\x00\x00\x00\x00\x00\x00~\x01\x00\x00\x00\x00\x00\x00\x7f\x01\x00\x00\x00\x00\x00\x00\x80\x01\x00\x00\x00\x00\x00\x00\x81\x01\x00\x00\x00\x00\x00\x00\x82\x01\x00\x00\x00\x00\x00\x00\x83\x01\x00\x00\x00\x00\x00\x00\x84\x01\x00\x00\x00\x00\x00\x00\x85\x01\x00\x00\x00\x00\x00\x00\x86\x01\x00\x00\x00\x00\x00\x00\x87\x01\x00\x00\x00\x00\x00\x00\x88\x01\x00\x00\x00\x00\x00\x00\x89\x01\x00\x00\x00\x00\x00\x00\x8a\x01\x00\x00\x00\x00\x00\x00\x8b\x01\x00\x00\x00\x00\x00\x00\x8c\x01\x00\x00\x00\x00\x00\x00\x8d\x01\x00\x00\x00\x00\x00\x00\x8e\x01\x00\x00\x00\x00\x00\x00\x8f\x01\x00\x00\x00\x00\x00\x00\x90\x01\x00\x00\x00\x00\x00\x00\x91\x01\x00\x00\x00\x00\x00\x00\x92\x01\x00\x00\x00\x00\x00\x00\x93\x01\x00\x00\x00\x00\x00\x00\x94\x01\x00\x00\x00\x00\x00\x00\x95\x01\x00\x00\x00\x00\x00\x00\x96\x01\x00\x00\x00\x00\x00\x00\x97\x01\x00\x00\x00\x00\x00\x00\x98\x01\x00\x00\x00\x00\x00\x00\x99\x01\x00\x00\x00\x00\x00\x00\x9a\x01\x00\x00\x00\x00\x00\x00\x9b\x01\x00\x00\x00\x00\x00\x00\x9c\x01\x00\x00\x00\x00\x00\x00\x9d\x01\x00\x00\x00\x00\x00\x00\x9e\x01\x00\x00\x00\x00\x00\x00\x9f\x01\x00\x00\x00\x00\x00\x00\xa0\x01\x00\x00\x00\x00\x00\x00\xa1\x01\x00\x00\x00\x00\x00\x00\xa2\x01\x00\x00\x00\x00\x00\x00\xa3\x01\x00\x00\x00\x00\x00\x00\xa4\x01\x00\x00\x00\x00\x00\x00\xa5\x01\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\x00\x00\x00\x00\xa7\x01\x00\x00\x00\x00\x00\x00\xa8\x01\x00\x00\x00\x00\x00\x00\xa9\x01\x00\x00\x00\x00\x00\x00\xaa\x01\x00\x00\x00\x00\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\xac\x01\x00\x00\x00\x00\x00\x00\xad\x01\x00\x00\x00\x00\x00\x00\xae\x01\x00\x00\x00\x00\x00\x00\xaf\x01\x00\x00\x00\x00\x00\x00\xb0\x01\x00\x00\x00\x00\x00\x00\xb1\x01\x00\x00\x00\x00\x00\x00\xb2\x01\x00\x00\x00\x00\x00\x00\xb3\x01\x00\x00\x00\x00\x00\x00\xb4\x01\x00\x00\x00\x00\x00\x00\xb5\x01\x00\x00\x00\x00\x00\x00\xb6\x01\x00\x00\x00\x00\x00\x00\xb7\x01\x00\x00\x00\x00\x00\x00\xb8\x01\x00\x00\x00\x00\x00\x00\xb9\x01\x00\x00\x00\x00\x00\x00\xba\x01\x00\x00\x00\x00\x00\x00\xbb\x01\x00\x00\x00\x00\x00\x00\xbc\x01\x00\x00\x00\x00\x00\x00\xbd\x01\x00\x00\x00\x00\x00\x00\xbe\x01\x00\x00\x00\x00\x00\x00\xbf\x01\x00\x00\x00\x00\x00\x00\xc0\x01\x00\x00\x00\x00\x00\x00\xc1\x01\x00\x00\x00\x00\x00\x00\xc2\x01\x00\x00\x00\x00\x00\x00\xc3\x01\x00\x00\x00\x00\x00\x00\xc4\x01\x00\x00\x00\x00\x00\x00\xc5\x01\x00\x00\x00\x00\x00\x00\xc6\x01\x00\x00\x00\x00\x00\x00\xc7\x01\x00\x00\x00\x00\x00\x00\xc8\x01\x00\x00\x00\x00\x00\x00\xc9\x01\x00\x00\x00\x00\x00\x00\xca\x01\x00\x00\x00\x00\x00\x00\xcb\x01\x00\x00\x00\x00\x00\x00\xcc\x01\x00\x00\x00\x00\x00\x00\xcd\x01\x00\x00\x00\x00\x00\x00\xce\x01\x00\x00\x00\x00\x00\x00\xcf\x01\x00\x00\x00\x00\x00\x00\xd0\x01\x00\x00\x00\x00\x00\x00\xd1\x01\x00\x00\x00\x00\x00\x00\xd2\x01\x00\x00\x00\x00\x00\x00\xd4\x01\x00\x00\x00\x00\x00\x00\xd5\x01\x00\x00\x00\x00\x00\x00\xd6\x01\x00\x00\x00\x00\x00\x00\xd7\x01\x00\x00\x00\x00\x00\x00\xd8\x01\x00\x00\x00\x00\x00\x00\xd9\x01\x00\x00\x00\x00\x00\x00\xda\x01\x00\x00\x00\x00\x00\x00\xdb\x01\x00\x00\x00\x00\x00\x00\xdc\x01\x00\x00\x00\x00\x00\x00\xdd\x01\x00\x00\x00\x00\x00\x00\xde\x01\x00\x00\x00\x00\x00\x00\xdf\x01\x00\x00\x00\x00\x00\x00\xe0\x01\x00\x00\x00\x00\x00\x00\xe1\x01\x00\x00\x00\x00\x00\x00\xe2\x01\x00\x00\x00\x00\x00\x00\xe3\x01\x00\x00\x00\x00\x00\x00\xe4\x01\x00\x00\x00\x00\x00\x00\xe5\x01\x00\x00\x00\x00\x00\x00\xe6\x01\x00\x00\x00\x00\x00\x00\xe7\x01\x00\x00\x00\x00\x00\x00\xe8\x01\x00\x00\x00\x00\x00\x00\xe9\x01\x00\x00\x00\x00\x00\x00\xea\x01\x00\x00\x00\x00\x00\x00\xeb\x01\x00\x00\x00\x00\x00\x00\xec\x01\x00\x00\x00\x00\x00\x00\xed\x01\x00\x00\x00\x00\x00\x00\xee\x01\x00\x00\x00\x00\x00\x00\xef\x01\x00\x00\x00\x00\x00\x00\xf0\x01\x00\x00\x00\x00\x00\x00\xf1\x01\x00\x00\x00\x00\x00\x00\xf2\x01\x00\x00\x00\x00\x00\x00\xf3\x01\x00\x00\x00\x00\x00\x00\xf4\x01\x00\x00\x00\x00\x00\x00\xf5\x01\x00\x00\x00\x00\x00\x00\xf6\x01\x00\x00\x00\x00\x00\x00\xf7\x01\x00\x00\x00\x00\x00\x00\xf8\x01\x00\x00\x00\x00\x00\x00\xf9\x01\x00\x00\x00\x00\x00\x00\xfa\x01\x00\x00\x00\x00\x00\x00\xfb\x01\x00\x00\x00\x00\x00\x00\xfc\x01\x00\x00\x00\x00\x00\x00\xfd\x01\x00\x00\x00\x00\x00\x00\xfe\x01\x00\x00\x00\x00\x00\x00\xff\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x01\x02\x00\x00\x00\x00\x00\x00\x02\x02\x00\x00\x00\x00\x00\x00\x03\x02\x00\x00\x00\x00\x00\x00\x04\x02\x00\x00\x00\x00\x00\x00\x05\x02\x00\x00\x00\x00\x00\x00\x06\x02\x00\x00\x00\x00\x00\x00\x07\x02\x00\x00\x00\x00\x00\x00\x08\x02\x00\x00\x00\x00\x00\x00\t\x02\x00\x00\x00\x00\x00\x00\n\x02\x00\x00\x00\x00\x00\x00\x0b\x02\x00\x00\x00\x00\x00\x00\x0c\x02\x00\x00\x00\x00\x00\x00\r\x02\x00\x00\x00\x00\x00\x00\x0e\x02\x00\x00\x00\x00\x00\x00\x0f\x02\x00\x00\x00\x00\x00\x00\x10\x02\x00\x00\x00\x00\x00\x00\x11\x02\x00\x00\x00\x00\x00\x00\x12\x02\x00\x00\x00\x00\x00\x00\x13\x02\x00\x00\x00\x00\x00\x00\x14\x02\x00\x00\x00\x00\x00\x00\x15\x02\x00\x00\x00\x00\x00\x00\x16\x02\x00\x00\x00\x00\x00\x00\x17\x02\x00\x00\x00\x00\x00\x00\x18\x02\x00\x00\x00\x00\x00\x00\x19\x02\x00\x00\x00\x00\x00\x00\x1a\x02\x00\x00\x00\x00\x00\x00\x1b\x02\x00\x00\x00\x00\x00\x00\x1c\x02\x00\x00\x00\x00\x00\x00\x1d\x02\x00\x00\x00\x00\x00\x00\x1e\x02\x00\x00\x00\x00\x00\x00\x1f\x02\x00\x00\x00\x00\x00\x00 \x02\x00\x00\x00\x00\x00\x00!\x02\x00\x00\x00\x00\x00\x00"\x02\x00\x00\x00\x00\x00\x00#\x02\x00\x00\x00\x00\x00\x00$\x02\x00\x00\x00\x00\x00\x00%\x02\x00\x00\x00\x00\x00\x00&\x02\x00\x00\x00\x00\x00\x00\'\x02\x00\x00\x00\x00\x00\x00(\x02\x00\x00\x00\x00\x00\x00)\x02\x00\x00\x00\x00\x00\x00*\x02\x00\x00\x00\x00\x00\x00'
+tbsg26
+NstRp32
+a(lp33
+g18
+(g19
+(I0
+tS'b'
+tRp34
+(I1
+(L5L
+L541L
+tg22
+I01
+(lp35
+Fnan
+aFnan
+aS'01100'
+p36
+aS'01110'
+p37
+aS'01120'
+p38
+aS'01130'
+p39
+aS'01200'
+p40
+aS'01210'
+p41
+aS'01212'
+p42
+aS'01230'
+p43
+aS'01220'
+p44
+aFnan
+aS'00010'
+p45
+aS'00020'
+p46
+aS'00030'
+p47
+aS'00040'
+p48
+aS'00051'
+p49
+aS'00052'
+p50
+aS'00053'
+p51
+aS'00500'
+p52
+aS'00520'
+p53
+aS'00620'
+p54
+aS'00630'
+p55
+aS'00640'
+p56
+aS'00650'
+p57
+aS'00660'
+p58
+aS'00562'
+p59
+aFnan
+aS'00190'
+p60
+aS'00195'
+p61
+aS'00196'
+p62
+aS'00710'
+p63
+aS'00720'
+p64
+aS'00680'
+p65
+aS'00910'
+p66
+aS'00920'
+p67
+aFnan
+aS'00061'
+p68
+aS'00062'
+p69
+aS'00071'
+p70
+aS'00072'
+p71
+aS'00073'
+p72
+aS'00100'
+p73
+aS'00120'
+p74
+aS'00121'
+p75
+aS'00140'
+p76
+aS'00561'
+p77
+aS'00564'
+p78
+aS'00565'
+p79
+aS'00600'
+p80
+aS'00590'
+p81
+aS'00591'
+p82
+aS'00592'
+p83
+aS'01040'
+p84
+aFnan
+aS'00230'
+p85
+aS'00240'
+p86
+aFnan
+aS'00250'
+p87
+aS'00260'
+p88
+aS'00270'
+p89
+aS'00280'
+p90
+aS'00290'
+p91
+aS'00300'
+p92
+aS'00310'
+p93
+aS'00220'
+p94
+aS'00330'
+p95
+aS'00340'
+p96
+aS'00350'
+p97
+aS'00360'
+p98
+aS'00380'
+p99
+aS'00400'
+p100
+aFnan
+aS'00410'
+p101
+aS'00430'
+p102
+aS'00440'
+p103
+aS'00450'
+p104
+aS'00460'
+p105
+aS'00471'
+p106
+aS'00472'
+p107
+aS'00473'
+p108
+aS'00480'
+p109
+aFnan
+aS'00510'
+p110
+aS'00513'
+p111
+aS'00512'
+p112
+aS'00514'
+p113
+aS'00532'
+p114
+aS'00534'
+p115
+aS'00533'
+p116
+aS'00531'
+p117
+aS'00563'
+p118
+aS'00601'
+p119
+aS'00603'
+p120
+aS'00604'
+p121
+aS'00540'
+p122
+aS'00550'
+p123
+aS'00511'
+p124
+aFnan
+aS'00730'
+p125
+aS'00740'
+p126
+aS'00750'
+p127
+aS'00760'
+p128
+aS'00770'
+p129
+aS'00780'
+p130
+aS'00785'
+p131
+aS'00790'
+p132
+aS'00670'
+p133
+aS'00830'
+p134
+aS'00860'
+p135
+aS'00130'
+p136
+aFnan
+aS'00900'
+p137
+aS'00902'
+p138
+aS'00909'
+p139
+aS'00904'
+p140
+aS'00906'
+p141
+aS'00905'
+p142
+aS'00981'
+p143
+aS'00908'
+p144
+aS'00903'
+p145
+aS'00281'
+p146
+aS'01052'
+p147
+aS'00522'
+p148
+aS'01051'
+p149
+aS'01056'
+p150
+aS'01057'
+p151
+aS'00253'
+p152
+aS'00523'
+p153
+aS'01054'
+p154
+aS'01053'
+p155
+aS'01055'
+p156
+aFnan
+aS'00940'
+p157
+aS'00945'
+p158
+aS'00941'
+p159
+aS'00944'
+p160
+aS'00942'
+p161
+aS'00943'
+p162
+aS'00901'
+p163
+aS'00403'
+p164
+aS'00950'
+p165
+aS'00960'
+p166
+aS'01058'
+p167
+aS'00232'
+p168
+aS'00965'
+p169
+aS'00966'
+p170
+aS'00402'
+p171
+aS'00311'
+p172
+aS'00332'
+p173
+aS'00261'
+p174
+aS'00331'
+p175
+aS'00521'
+p176
+aS'00524'
+p177
+aS'00231'
+p178
+aS'00401'
+p179
+aS'00254'
+p180
+aFnan
+aS'00362'
+p181
+aS'00627'
+p182
+aS'00364'
+p183
+aS'00625'
+p184
+aS'00361'
+p185
+aS'00623'
+p186
+aS'00622'
+p187
+aS'00633'
+p188
+aS'00642'
+p189
+aS'00643'
+p190
+aS'00791'
+p191
+aS'00930'
+p192
+aS'00351'
+p193
+aS'00363'
+p194
+aS'00621'
+p195
+aS'00626'
+p196
+aS'00624'
+p197
+aS'00365'
+p198
+aS'00984'
+p199
+aS'00980'
+p200
+aS'00982'
+p201
+aS'00983'
+p202
+aFnan
+aS'01010'
+p203
+aS'01060'
+p204
+aS'01061'
+p205
+aS'01062'
+p206
+aS'01063'
+p207
+aS'01064'
+p208
+aS'01065'
+p209
+aS'01066'
+p210
+aS'01070'
+p211
+aFnan
+aFnan
+aS'03020'
+p212
+aS'03022'
+p213
+aS'03040'
+p214
+aFnan
+aS'03010'
+p215
+aS'00970'
+p216
+aS'03013'
+p217
+aS'03015'
+p218
+aS'03008'
+p219
+aFnan
+aS'03060'
+p220
+aS'04141'
+p221
+aS'04130'
+p222
+aS'04120'
+p223
+aS'04122'
+p224
+aS'03050'
+p225
+aS'03018'
+p226
+aFnan
+aS'03030'
+p227
+aS'03410'
+p228
+aS'03420'
+p229
+aS'03430'
+p230
+aS'03440'
+p231
+aS'03450'
+p232
+aS'03460'
+p233
+aFnan
+aFnan
+aS'02010'
+p234
+aS'02060'
+p235
+aS'03070'
+p236
+aFnan
+aS'02020'
+p237
+aS'04014'
+p238
+aS'04015'
+p239
+aS'04010'
+p240
+aS'04013'
+p241
+aS'04011'
+p242
+aS'04012'
+p243
+aS'04310'
+p244
+aS'04330'
+p245
+aS'04340'
+p246
+aS'04350'
+p247
+aS'04390'
+p248
+aS'04391'
+p249
+aS'04370'
+p250
+aS'04630'
+p251
+aS'04064'
+p252
+aS'04668'
+p253
+aS'04066'
+p254
+aS'04068'
+p255
+aS'04020'
+p256
+aS'04070'
+p257
+aS'04072'
+p258
+aS'04071'
+p259
+aS'04024'
+p260
+aS'04022'
+p261
+aS'04151'
+p262
+aS'04152'
+p263
+aS'04150'
+p264
+aS'04075'
+p265
+aFnan
+aS'04080'
+p266
+aS'04060'
+p267
+aS'04512'
+p268
+aS'04514'
+p269
+aFnan
+aFnan
+aS'04144'
+p270
+aS'04145'
+p271
+aS'04142'
+p272
+aS'04146'
+p273
+aS'04140'
+p274
+aFnan
+aS'02030'
+p275
+aS'02040'
+p276
+aS'04810'
+p277
+aFnan
+aS'04110'
+p278
+aS'04111'
+p279
+aS'04112'
+p280
+aS'04113'
+p281
+aS'04114'
+p282
+aS'04210'
+p283
+aS'04115'
+p284
+aFnan
+aS'04510'
+p285
+aS'04520'
+p286
+aS'04530'
+p287
+aS'04540'
+p288
+aS'04550'
+p289
+aFnan
+aFnan
+aS'04640'
+p290
+aS'04610'
+p291
+aS'04611'
+p292
+aS'04620'
+p293
+aS'04621'
+p294
+aS'04622'
+p295
+aS'04623'
+p296
+aS'04650'
+p297
+aS'04612'
+p298
+aS'04660'
+p299
+aS'04662'
+p300
+aS'04664'
+p301
+aS'04666'
+p302
+aS'04670'
+p303
+aS'04672'
+p304
+aS'04062'
+p305
+aFnan
+aS'04911'
+p306
+aS'04910'
+p307
+aS'04922'
+p308
+aS'04923'
+p309
+aS'04920'
+p310
+aS'03320'
+p311
+aS'04912'
+p312
+aS'04913'
+p313
+aS'04915'
+p314
+aS'04914'
+p315
+aS'04917'
+p316
+aS'04921'
+p317
+aS'04918'
+p318
+aS'04919'
+p319
+aS'04916'
+p320
+aS'04924'
+p321
+aS'04614'
+p322
+aS'04925'
+p323
+aFnan
+aS'04260'
+p324
+aS'04261'
+p325
+aS'04270'
+p326
+aFnan
+aS'04970'
+p327
+aS'04971'
+p328
+aS'04972'
+p329
+aS'04976'
+p330
+aS'04973'
+p331
+aS'04974'
+p332
+aS'04975'
+p333
+aS'04977'
+p334
+aS'04978'
+p335
+aFnan
+aS'04962'
+p336
+aS'04960'
+p337
+aS'04961'
+p338
+aS'04964'
+p339
+aS'04966'
+p340
+aFnan
+aS'04724'
+p341
+aS'04727'
+p342
+aS'04725'
+p343
+aS'04728'
+p344
+aS'04726'
+p345
+aS'04720'
+p346
+aS'04730'
+p347
+aS'04723'
+p348
+aS'04721'
+p349
+aS'04722'
+p350
+aFnan
+aS'04744'
+p351
+aS'04745'
+p352
+aS'04740'
+p353
+aS'04742'
+p354
+aS'04750'
+p355
+aFnan
+aS'04320'
+p356
+aS'04360'
+p357
+aS'04380'
+p358
+aFnan
+aS'04710'
+p359
+aS'04713'
+p360
+aS'04711'
+p361
+aS'04712'
+p362
+aS'04626'
+p363
+aFnan
+aFnan
+aS'05200'
+p364
+aS'05230'
+p365
+aS'05231'
+p366
+aS'05202'
+p367
+aS'05206'
+p368
+aS'05205'
+p369
+aS'05204'
+p370
+aS'05203'
+p371
+aFnan
+aS'05210'
+p372
+aS'05212'
+p373
+aS'05214'
+p374
+aS'05216'
+p375
+aS'05221'
+p376
+aS'05220'
+p377
+aS'05217'
+p378
+aS'05218'
+p379
+aS'05211'
+p380
+aS'05219'
+p381
+aS'05215'
+p382
+aS'05213'
+p383
+aS'05222'
+p384
+aS'05223'
+p385
+aFnan
+aS'05310'
+p386
+aS'05322'
+p387
+aS'05323'
+p388
+aS'05320'
+p389
+aS'05321'
+p390
+aS'05330'
+p391
+aS'05332'
+p392
+aS'05340'
+p393
+aFnan
+aS'05010'
+p394
+aS'05012'
+p395
+aS'05014'
+p396
+aS'05016'
+p397
+aS'05020'
+p398
+aFnan
+aS'05030'
+p399
+aS'05031'
+p400
+aS'05032'
+p401
+aS'05033'
+p402
+aS'05034'
+p403
+aFnan
+aS'05410'
+p404
+aS'05412'
+p405
+aS'05414'
+p406
+aS'05416'
+p407
+aFnan
+aS'04930'
+p408
+aS'04940'
+p409
+aS'04950'
+p410
+aS'04932'
+p411
+aS'04931'
+p412
+aFnan
+aS'05110'
+p413
+aS'05111'
+p414
+aS'05120'
+p415
+aS'05130'
+p416
+aS'05132'
+p417
+aS'05131'
+p418
+aS'05133'
+p419
+aS'05134'
+p420
+aS'05150'
+p421
+aS'05152'
+p422
+aS'05100'
+p423
+aFnan
+aS'05166'
+p424
+aS'05162'
+p425
+aS'05164'
+p426
+aS'05161'
+p427
+aS'05160'
+p428
+aS'05168'
+p429
+aS'05169'
+p430
+aFnan
+aS'05146'
+p431
+aS'05144'
+p432
+aS'05145'
+p433
+aS'05140'
+p434
+aS'05142'
+p435
+aS'05143'
+p436
+aFnan
+aS'01501'
+p437
+aS'01502'
+p438
+aS'01503'
+p439
+aFnan
+aFnan
+aS'07011'
+p440
+aS'07012'
+p441
+aS'07013'
+p442
+aS'07021'
+p443
+aS'07019'
+p444
+aS'07020'
+p445
+aS'07014'
+p446
+aS'07023'
+p447
+aS'07026'
+p448
+aS'07044'
+p449
+aS'07053'
+p450
+aFnan
+aS'07040'
+p451
+aS'07041'
+p452
+aS'07042'
+p453
+aS'07043'
+p454
+aS'07045'
+p455
+aFnan
+aS'07032'
+p456
+aS'07030'
+p457
+aS'07033'
+p458
+aS'07015'
+p459
+aS'07039'
+p460
+aS'07028'
+p461
+aS'07029'
+p462
+aS'07031'
+p463
+aS'07027'
+p464
+aS'07056'
+p465
+aS'07057'
+p466
+aFnan
+aS'07055'
+p467
+aS'07016'
+p468
+aS'07017'
+p469
+aS'07018'
+p470
+aS'07037'
+p471
+aS'07038'
+p472
+aS'07046'
+p473
+aS'07047'
+p474
+aS'07048'
+p475
+aS'07049'
+p476
+aS'07050'
+p477
+aS'07051'
+p478
+aS'07052'
+p479
+aS'07054'
+p480
+aFnan
+aS'07220'
+p481
+aS'07215'
+p482
+aS'07214'
+p483
+aS'07213'
+p484
+aS'07212'
+p485
+aS'07227'
+p486
+aS'07211'
+p487
+aS'07228'
+p488
+aS'07224'
+p489
+aS'07229'
+p490
+aFnan
+aS'07225'
+p491
+aS'07226'
+p492
+aS'07223'
+p493
+aS'07222'
+p494
+aFnan
+aS'07221'
+p495
+aS'07230'
+p496
+aS'07036'
+p497
+aS'07231'
+p498
+aS'07232'
+p499
+aS'07235'
+p500
+aFnan
+aS'07233'
+p501
+aS'07234'
+p502
+aFnan
+aS'07216'
+p503
+aS'07219'
+p504
+aS'07024'
+p505
+aS'07217'
+p506
+aS'07218'
+p507
+aFnan
+aS'07025'
+p508
+aS'07034'
+p509
+aS'07035'
+p510
+aFnan
+aS'07110'
+p511
+aS'07112'
+p512
+aS'07114'
+p513
+aS'07117'
+p514
+aS'Metabolism'
+p515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+ag515
+aS'Genetic Information Processing'
+p516
+ag516
+ag516
+ag516
+ag516
+ag516
+ag516
+ag516
+ag516
+ag516
+ag516
+ag516
+ag516
+ag516
+ag516
+ag516
+ag516
+ag516
+ag516
+ag516
+ag516
+ag516
+ag516
+ag516
+ag516
+ag516
+ag516
+aS'Environmental Information Processing'
+p517
+ag517
+ag517
+ag517
+ag517
+ag517
+ag517
+ag517
+ag517
+ag517
+ag517
+ag517
+ag517
+ag517
+ag517
+ag517
+ag517
+ag517
+ag517
+ag517
+ag517
+ag517
+ag517
+ag517
+ag517
+ag517
+ag517
+ag517
+ag517
+ag517
+ag517
+ag517
+ag517
+ag517
+ag517
+ag517
+ag517
+ag517
+ag517
+ag517
+aS'Cellular Processes'
+p518
+ag518
+ag518
+ag518
+ag518
+ag518
+ag518
+ag518
+ag518
+ag518
+ag518
+ag518
+ag518
+ag518
+ag518
+ag518
+ag518
+ag518
+ag518
+ag518
+ag518
+ag518
+ag518
+ag518
+ag518
+aS'Organismal Systems'
+p519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+ag519
+aS'Human Diseases'
+p520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+ag520
+aS'Drug Development'
+p521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+ag521
+aFnan
+aS'Global and overview maps'
+p522
+ag522
+ag522
+ag522
+ag522
+ag522
+ag522
+ag522
+ag522
+ag522
+aS'Carbohydrate metabolism'
+p523
+ag523
+ag523
+ag523
+ag523
+ag523
+ag523
+ag523
+ag523
+ag523
+ag523
+ag523
+ag523
+ag523
+ag523
+ag523
+aS'Energy metabolism'
+p524
+ag524
+ag524
+ag524
+ag524
+ag524
+ag524
+ag524
+ag524
+aS'Lipid metabolism'
+p525
+ag525
+ag525
+ag525
+ag525
+ag525
+ag525
+ag525
+ag525
+ag525
+ag525
+ag525
+ag525
+ag525
+ag525
+ag525
+ag525
+ag525
+aS'Nucleotide metabolism'
+p526
+ag526
+ag526
+aS'Amino acid metabolism'
+p527
+ag527
+ag527
+ag527
+ag527
+ag527
+ag527
+ag527
+ag527
+ag527
+ag527
+ag527
+ag527
+ag527
+ag527
+aS'Metabolism of other amino acids'
+p528
+ag528
+ag528
+ag528
+ag528
+ag528
+ag528
+ag528
+ag528
+ag528
+aS'Glycan biosynthesis and metabolism'
+p529
+ag529
+ag529
+ag529
+ag529
+ag529
+ag529
+ag529
+ag529
+ag529
+ag529
+ag529
+ag529
+ag529
+ag529
+ag529
+aS'Metabolism of cofactors and vitamins'
+p530
+ag530
+ag530
+ag530
+ag530
+ag530
+ag530
+ag530
+ag530
+ag530
+ag530
+ag530
+ag530
+aS'Metabolism of terpenoids and polyketides'
+p531
+ag531
+ag531
+ag531
+ag531
+ag531
+ag531
+ag531
+ag531
+ag531
+ag531
+ag531
+ag531
+ag531
+ag531
+ag531
+ag531
+ag531
+ag531
+ag531
+ag531
+aS'Biosynthesis of other secondary metabolites'
+p532
+ag532
+ag532
+ag532
+ag532
+ag532
+ag532
+ag532
+ag532
+ag532
+ag532
+ag532
+ag532
+ag532
+ag532
+ag532
+ag532
+ag532
+ag532
+ag532
+ag532
+ag532
+ag532
+ag532
+ag532
+aS'Xenobiotics biodegradation and metabolism'
+p533
+ag533
+ag533
+ag533
+ag533
+ag533
+ag533
+ag533
+ag533
+ag533
+ag533
+ag533
+ag533
+ag533
+ag533
+ag533
+ag533
+ag533
+ag533
+ag533
+ag533
+ag533
+ag533
+aS'Chemical structure transformation maps'
+p534
+ag534
+ag534
+ag534
+ag534
+ag534
+ag534
+ag534
+ag534
+ag534
+aFnan
+aS'Transcription'
+p535
+ag535
+ag535
+ag535
+aS'Translation'
+p536
+ag536
+ag536
+ag536
+ag536
+ag536
+aS'Folding, sorting and degradation'
+p537
+ag537
+ag537
+ag537
+ag537
+ag537
+ag537
+ag537
+aS'Replication and repair'
+p538
+ag538
+ag538
+ag538
+ag538
+ag538
+ag538
+ag538
+aFnan
+aS'Membrane transport'
+p539
+ag539
+ag539
+ag539
+aS'Signal transduction'
+p540
+ag540
+ag540
+ag540
+ag540
+ag540
+ag540
+ag540
+ag540
+ag540
+ag540
+ag540
+ag540
+ag540
+ag540
+ag540
+ag540
+ag540
+ag540
+ag540
+ag540
+ag540
+ag540
+ag540
+ag540
+ag540
+ag540
+ag540
+ag540
+ag540
+aS'Signaling molecules and interaction'
+p541
+ag541
+ag541
+ag541
+ag541
+aFnan
+aS'Transport and catabolism'
+p542
+ag542
+ag542
+ag542
+ag542
+ag542
+aS'Cell motility'
+p543
+ag543
+ag543
+ag543
+aS'Cell growth and death'
+p544
+ag544
+ag544
+ag544
+ag544
+ag544
+ag544
+ag544
+aS'Cellular community'
+p545
+ag545
+ag545
+ag545
+ag545
+ag545
+aFnan
+aS'Immune system'
+p546
+ag546
+ag546
+ag546
+ag546
+ag546
+ag546
+ag546
+ag546
+ag546
+ag546
+ag546
+ag546
+ag546
+ag546
+ag546
+ag546
+aS'Endocrine system'
+p547
+ag547
+ag547
+ag547
+ag547
+ag547
+ag547
+ag547
+ag547
+ag547
+ag547
+ag547
+ag547
+ag547
+ag547
+ag547
+ag547
+ag547
+ag547
+aS'Circulatory system'
+p548
+ag548
+ag548
+ag548
+aS'Digestive system'
+p549
+ag549
+ag549
+ag549
+ag549
+ag549
+ag549
+ag549
+ag549
+ag549
+aS'Excretory system'
+p550
+ag550
+ag550
+ag550
+ag550
+ag550
+aS'Nervous system'
+p551
+ag551
+ag551
+ag551
+ag551
+ag551
+ag551
+ag551
+ag551
+ag551
+ag551
+aS'Sensory system'
+p552
+ag552
+ag552
+ag552
+ag552
+ag552
+aS'Development'
+p553
+ag553
+ag553
+ag553
+aS'Environmental adaptation'
+p554
+ag554
+ag554
+ag554
+ag554
+ag554
+aFnan
+aS'Cancers: Overview'
+p555
+ag555
+ag555
+ag555
+ag555
+ag555
+ag555
+ag555
+ag555
+aS'Cancers: Specific types'
+p556
+ag556
+ag556
+ag556
+ag556
+ag556
+ag556
+ag556
+ag556
+ag556
+ag556
+ag556
+ag556
+ag556
+ag556
+aS'Immune diseases'
+p557
+ag557
+ag557
+ag557
+ag557
+ag557
+ag557
+ag557
+ag557
+aS'Neurodegenerative diseases'
+p558
+ag558
+ag558
+ag558
+ag558
+ag558
+aS'Substance dependence'
+p559
+ag559
+ag559
+ag559
+ag559
+ag559
+aS'Cardiovascular diseases'
+p560
+ag560
+ag560
+ag560
+ag560
+aS'Endocrine and metabolic diseases'
+p561
+ag561
+ag561
+ag561
+ag561
+ag561
+aS'Infectious diseases: Bacterial'
+p562
+ag562
+ag562
+ag562
+ag562
+ag562
+ag562
+ag562
+ag562
+ag562
+ag562
+ag562
+aS'Infectious diseases: Viral'
+p563
+ag563
+ag563
+ag563
+ag563
+ag563
+ag563
+ag563
+aS'Infectious diseases: Parasitic'
+p564
+ag564
+ag564
+ag564
+ag564
+ag564
+ag564
+aS'Drug resistance'
+p565
+ag565
+ag565
+ag565
+aFnan
+aS'Chronology: Antiinfectives'
+p566
+ag566
+ag566
+ag566
+ag566
+ag566
+ag566
+ag566
+ag566
+ag566
+ag566
+ag566
+aS'Chronology: Antineoplastics'
+p567
+ag567
+ag567
+ag567
+ag567
+ag567
+aS'Chronology: Nervous system agents'
+p568
+ag568
+ag568
+ag568
+ag568
+ag568
+ag568
+ag568
+ag568
+ag568
+ag568
+ag568
+aS'Chronology: Other drugs'
+p569
+ag569
+ag569
+ag569
+ag569
+ag569
+ag569
+ag569
+ag569
+ag569
+ag569
+ag569
+ag569
+ag569
+ag569
+aS'Target-based classification: G protein-coupled receptors'
+p570
+ag570
+ag570
+ag570
+ag570
+ag570
+ag570
+ag570
+ag570
+ag570
+ag570
+aS'Target-based classification: Nuclear receptors'
+p571
+ag571
+ag571
+ag571
+ag571
+aS'Target-based classification: Ion channels'
+p572
+ag572
+ag572
+ag572
+ag572
+ag572
+ag572
+aS'Target-based classification: Transporters'
+p573
+ag573
+ag573
+aS'Target-based classification: Enzymes'
+p574
+ag574
+ag574
+ag574
+ag574
+ag574
+aS'Structure-based classification'
+p575
+ag575
+ag575
+ag575
+aS'Skeleton-based classification'
+p576
+ag576
+ag576
+ag576
+ag576
+aFnan
+aFnan
+aS'Metabolic pathways'
+p577
+aS'Biosynthesis of secondary metabolites'
+p578
+aS'Microbial metabolism in diverse environments'
+p579
+aS'Biosynthesis of antibiotics'
+p580
+aS'Carbon metabolism'
+p581
+aS'2-Oxocarboxylic acid metabolism'
+p582
+aS'Fatty acid metabolism'
+p583
+aS'Biosynthesis of amino acids'
+p584
+aS'Degradation of aromatic compounds'
+p585
+aFnan
+aS'Glycolysis / Gluconeogenesis'
+p586
+aS'Citrate cycle (TCA cycle)'
+p587
+aS'Pentose phosphate pathway'
+p588
+aS'Pentose and glucuronate interconversions'
+p589
+aS'Fructose and mannose metabolism'
+p590
+aS'Galactose metabolism'
+p591
+aS'Ascorbate and aldarate metabolism'
+p592
+aS'Starch and sucrose metabolism'
+p593
+aS'Amino sugar and nucleotide sugar metabolism'
+p594
+aS'Pyruvate metabolism'
+p595
+aS'Glyoxylate and dicarboxylate metabolism'
+p596
+aS'Propanoate metabolism'
+p597
+aS'Butanoate metabolism'
+p598
+aS'C5-Branched dibasic acid metabolism'
+p599
+aS'Inositol phosphate metabolism'
+p600
+aFnan
+aS'Oxidative phosphorylation'
+p601
+aS'Photosynthesis'
+p602
+aS'Photosynthesis - antenna proteins'
+p603
+aS'Carbon fixation in photosynthetic organisms'
+p604
+aS'Carbon fixation pathways in prokaryotes'
+p605
+aS'Methane metabolism'
+p606
+aS'Nitrogen metabolism'
+p607
+aS'Sulfur metabolism'
+p608
+aFnan
+aS'Fatty acid biosynthesis'
+p609
+aS'Fatty acid elongation'
+p610
+aS'Fatty acid degradation'
+p611
+aS'Synthesis and degradation of ketone bodies'
+p612
+aS'Cutin, suberine and wax biosynthesis'
+p613
+aS'Steroid biosynthesis'
+p614
+aS'Primary bile acid biosynthesis'
+p615
+aS'Secondary bile acid biosynthesis'
+p616
+aS'Steroid hormone biosynthesis'
+p617
+aS'Glycerolipid metabolism'
+p618
+aS'Glycerophospholipid metabolism'
+p619
+aS'Ether lipid metabolism'
+p620
+aS'Sphingolipid metabolism'
+p621
+aS'Arachidonic acid metabolism'
+p622
+aS'Linoleic acid metabolism'
+p623
+aS'alpha-Linolenic acid metabolism'
+p624
+aS'Biosynthesis of unsaturated fatty acids'
+p625
+aFnan
+aS'Purine metabolism'
+p626
+aS'Pyrimidine metabolism'
+p627
+aFnan
+aS'Alanine, aspartate and glutamate metabolism'
+p628
+aS'Glycine, serine and threonine metabolism'
+p629
+aS'Cysteine and methionine metabolism'
+p630
+aS'Valine, leucine and isoleucine degradation'
+p631
+aS'Valine, leucine and isoleucine biosynthesis'
+p632
+aS'Lysine biosynthesis'
+p633
+aS'Lysine degradation'
+p634
+aS'Arginine biosynthesis'
+p635
+aS'Arginine and proline metabolism'
+p636
+aS'Histidine metabolism'
+p637
+aS'Tyrosine metabolism'
+p638
+aS'Phenylalanine metabolism'
+p639
+aS'Tryptophan metabolism'
+p640
+aS'Phenylalanine, tyrosine and tryptophan biosynthesis'
+p641
+aFnan
+aS'beta-Alanine metabolism'
+p642
+aS'Taurine and hypotaurine metabolism'
+p643
+aS'Phosphonate and phosphinate metabolism'
+p644
+aS'Selenocompound metabolism'
+p645
+aS'Cyanoamino acid metabolism'
+p646
+aS'D-Glutamine and D-glutamate metabolism'
+p647
+aS'D-Arginine and D-ornithine metabolism'
+p648
+aS'D-Alanine metabolism'
+p649
+aS'Glutathione metabolism'
+p650
+aFnan
+aS'N-Glycan biosynthesis'
+p651
+aS'Various types of N-glycan biosynthesis'
+p652
+aS'Mucin type O-Glycan biosynthesis'
+p653
+aS'Other types of O-glycan biosynthesis'
+p654
+aS'Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate'
+p655
+aS'Glycosaminoglycan biosynthesis - heparan sulfate / heparin'
+p656
+aS'Glycosaminoglycan biosynthesis - keratan sulfate'
+p657
+aS'Glycosaminoglycan degradation'
+p658
+aS'Glycosylphosphatidylinositol(GPI)-anchor biosynthesis'
+p659
+aS'Glycosphingolipid biosynthesis - lacto and neolacto series'
+p660
+aS'Glycosphingolipid biosynthesis - globo series'
+p661
+aS'Glycosphingolipid biosynthesis - ganglio series'
+p662
+aS'Lipopolysaccharide biosynthesis'
+p663
+aS'Peptidoglycan biosynthesis'
+p664
+aS'Other glycan degradation'
+p665
+aFnan
+aS'Thiamine metabolism'
+p666
+aS'Riboflavin metabolism'
+p667
+aS'Vitamin B6 metabolism'
+p668
+aS'Nicotinate and nicotinamide metabolism'
+p669
+aS'Pantothenate and CoA biosynthesis'
+p670
+aS'Biotin metabolism'
+p671
+aS'Lipoic acid metabolism'
+p672
+aS'Folate biosynthesis'
+p673
+aS'One carbon pool by folate'
+p674
+aS'Retinol metabolism'
+p675
+aS'Porphyrin and chlorophyll metabolism'
+p676
+aS'Ubiquinone and other terpenoid-quinone biosynthesis'
+p677
+aFnan
+aS'Terpenoid backbone biosynthesis'
+p678
+aS'Monoterpenoid biosynthesis'
+p679
+aS'Sesquiterpenoid and triterpenoid biosynthesis'
+p680
+aS'Diterpenoid biosynthesis'
+p681
+aS'Carotenoid biosynthesis'
+p682
+aS'Brassinosteroid biosynthesis'
+p683
+aS'Insect hormone biosynthesis'
+p684
+aS'Zeatin biosynthesis'
+p685
+aS'Limonene and pinene degradation'
+p686
+aS'Geraniol degradation'
+p687
+aS'Type I polyketide structures'
+p688
+aS'Biosynthesis of 12-, 14- and 16-membered macrolides'
+p689
+aS'Biosynthesis of ansamycins'
+p690
+aS'Biosynthesis of type II polyketide backbone'
+p691
+aS'Biosynthesis of type II polyketide products'
+p692
+aS'Tetracycline biosynthesis'
+p693
+aS'Polyketide sugar unit biosynthesis'
+p694
+aS'Nonribosomal peptide structures'
+p695
+aS'Biosynthesis of siderophore group nonribosomal peptides'
+p696
+aS'Biosynthesis of vancomycin group antibiotics'
+p697
+aFnan
+aS'Phenylpropanoid biosynthesis'
+p698
+aS'Stilbenoid, diarylheptanoid and gingerol biosynthesis'
+p699
+aS'Flavonoid biosynthesis'
+p700
+aS'Flavone and flavonol biosynthesis'
+p701
+aS'Anthocyanin biosynthesis'
+p702
+aS'Isoflavonoid biosynthesis'
+p703
+aS'Indole alkaloid biosynthesis'
+p704
+aS'Indole diterpene alkaloid biosynthesis'
+p705
+aS'Isoquinoline alkaloid biosynthesis'
+p706
+aS'Tropane, piperidine and pyridine alkaloid biosynthesis'
+p707
+aS'Acridone alkaloid biosynthesis'
+p708
+aS'Caffeine metabolism'
+p709
+aS'Betalain biosynthesis'
+p710
+aS'Glucosinolate biosynthesis'
+p711
+aS'Benzoxazinoid biosynthesis'
+p712
+aS'Penicillin and cephalosporin biosynthesis'
+p713
+aS'Carbapenem biosynthesis'
+p714
+aS'Monobactam biosynthesis'
+p715
+aS'Clavulanic acid biosynthesis'
+p716
+aS'Streptomycin biosynthesis'
+p717
+aS'Butirosin and neomycin biosynthesis'
+p718
+aS'Puromycin biosynthesis'
+p719
+aS'Novobiocin biosynthesis'
+p720
+aS'Aflatoxin biosynthesis'
+p721
+aFnan
+aS'Benzoate degradation'
+p722
+aS'Aminobenzoate degradation'
+p723
+aS'Fluorobenzoate degradation'
+p724
+aS'Chloroalkane and chloroalkene degradation'
+p725
+aS'Chlorocyclohexane and chlorobenzene degradation'
+p726
+aS'Toluene degradation'
+p727
+aS'Xylene degradation'
+p728
+aS'Nitrotoluene degradation'
+p729
+aS'Ethylbenzene degradation'
+p730
+aS'Styrene degradation'
+p731
+aS'Atrazine degradation'
+p732
+aS'Caprolactam degradation'
+p733
+aS'DDT degradation'
+p734
+aS'Bisphenol degradation'
+p735
+aS'Dioxin degradation'
+p736
+aS'Naphthalene degradation'
+p737
+aS'Polycyclic aromatic hydrocarbon degradation'
+p738
+aS'Furfural degradation'
+p739
+aS'Steroid degradation'
+p740
+aS'Metabolism of xenobiotics by cytochrome P450'
+p741
+aS'Drug metabolism - cytochrome P450'
+p742
+aS'Drug metabolism - other enzymes'
+p743
+aFnan
+aS'Overview of biosynthetic pathways'
+p744
+aS'Biosynthesis of plant secondary metabolites'
+p745
+aS'Biosynthesis of phenylpropanoids'
+p746
+aS'Biosynthesis of terpenoids and steroids'
+p747
+aS'Biosynthesis of alkaloids derived from shikimate pathway'
+p748
+aS'Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid'
+p749
+aS'Biosynthesis of alkaloids derived from histidine and purine'
+p750
+aS'Biosynthesis of alkaloids derived from terpenoid and polyketide'
+p751
+aS'Biosynthesis of plant hormones'
+p752
+aFnan
+aFnan
+aS'RNA polymerase'
+p753
+aS'Basal transcription factors'
+p754
+aS'Spliceosome'
+p755
+aFnan
+aS'Ribosome'
+p756
+aS'Aminoacyl-tRNA biosynthesis'
+p757
+aS'RNA transport'
+p758
+aS'mRNA surveillance pathway'
+p759
+aS'Ribosome biogenesis in eukaryotes'
+p760
+aFnan
+aS'Protein export'
+p761
+aS'Protein processing in endoplasmic reticulum'
+p762
+aS'SNARE interactions in vesicular transport'
+p763
+aS'Ubiquitin mediated proteolysis'
+p764
+aS'Sulfur relay system'
+p765
+aS'Proteasome'
+p766
+aS'RNA degradation'
+p767
+aFnan
+aS'DNA replication'
+p768
+aS'Base excision repair'
+p769
+aS'Nucleotide excision repair'
+p770
+aS'Mismatch repair'
+p771
+aS'Homologous recombination'
+p772
+aS'Non-homologous end-joining'
+p773
+aS'Fanconi anemia pathway'
+p774
+aFnan
+aFnan
+aS'ABC transporters'
+p775
+aS'Phosphotransferase system (PTS)'
+p776
+aS'Bacterial secretion system'
+p777
+aFnan
+aS'Two-component system'
+p778
+aS'Ras signaling pathway'
+p779
+aS'Rap1 signaling pathway'
+p780
+aS'MAPK signaling pathway'
+p781
+aS'MAPK signaling pathway - fly'
+p782
+aS'MAPK signaling pathway - yeast'
+p783
+aS'ErbB signaling pathway'
+p784
+aS'Wnt signaling pathway'
+p785
+aS'Notch signaling pathway'
+p786
+aS'Hedgehog signaling pathway'
+p787
+aS'TGF-beta signaling pathway'
+p788
+aS'Hippo signaling pathway'
+p789
+aS'Hippo signaling pathway - fly'
+p790
+aS'VEGF signaling pathway'
+p791
+aS'Jak-STAT signaling pathway'
+p792
+aS'NF-kappa B signaling pathway'
+p793
+aS'TNF signaling pathway'
+p794
+aS'HIF-1 signaling pathway'
+p795
+aS'FoxO signaling pathway'
+p796
+aS'Calcium signaling pathway'
+p797
+aS'Phosphatidylinositol signaling system'
+p798
+aS'Phospholipase D signaling pathway'
+p799
+aS'Sphingolipid signaling pathway'
+p800
+aS'cAMP signaling pathway'
+p801
+aS'cGMP-PKG signaling pathway'
+p802
+aS'PI3K-Akt signaling pathway'
+p803
+aS'AMPK signaling pathway'
+p804
+aS'mTOR signaling pathway'
+p805
+aS'Plant hormone signal transduction'
+p806
+aFnan
+aS'Neuroactive ligand-receptor interaction'
+p807
+aS'Cytokine-cytokine receptor interaction'
+p808
+aS'ECM-receptor interaction'
+p809
+aS'Cell adhesion molecules (CAMs)'
+p810
+aFnan
+aFnan
+aS'Endocytosis'
+p811
+aS'Phagosome'
+p812
+aS'Lysosome'
+p813
+aS'Peroxisome'
+p814
+aS'Regulation of autophagy'
+p815
+aFnan
+aS'Bacterial chemotaxis'
+p816
+aS'Flagellar assembly'
+p817
+aS'Regulation of actin cytoskeleton'
+p818
+aFnan
+aS'Cell cycle'
+p819
+aS'Cell cycle - yeast'
+p820
+aS'Cell cycle - Caulobacter'
+p821
+aS'Meiosis - yeast'
+p822
+aS'Oocyte meiosis'
+p823
+aS'Apoptosis'
+p824
+aS'p53 signaling pathway'
+p825
+aFnan
+aS'Focal adhesion'
+p826
+aS'Adherens junction'
+p827
+aS'Tight junction'
+p828
+aS'Gap junction'
+p829
+aS'Signaling pathways regulating pluripotency of stem cells'
+p830
+aFnan
+aFnan
+aS'Hematopoietic cell lineage'
+p831
+aS'Complement and coagulation cascades'
+p832
+aS'Platelet activation'
+p833
+aS'Toll-like receptor signaling pathway'
+p834
+aS'NOD-like receptor signaling pathway'
+p835
+aS'RIG-I-like receptor signaling pathway'
+p836
+aS'Cytosolic DNA-sensing pathway'
+p837
+aS'Natural killer cell mediated cytotoxicity'
+p838
+aS'Antigen processing and presentation'
+p839
+aS'T cell receptor signaling pathway'
+p840
+aS'B cell receptor signaling pathway'
+p841
+aS'Fc epsilon RI signaling pathway'
+p842
+aS'Fc gamma R-mediated phagocytosis'
+p843
+aS'Leukocyte transendothelial migration'
+p844
+aS'Intestinal immune network for IgA production'
+p845
+aS'Chemokine signaling pathway'
+p846
+aFnan
+aS'Insulin secretion'
+p847
+aS'Insulin signaling pathway'
+p848
+aS'Glucagon signaling pathway'
+p849
+aS'Regulation of lipolysis in adipocytes'
+p850
+aS'Adipocytokine signaling pathway'
+p851
+aS'PPAR signaling pathway'
+p852
+aS'GnRH signaling pathway'
+p853
+aS'Ovarian steroidogenesis'
+p854
+aS'Estrogen signaling pathway'
+p855
+aS'Progesterone-mediated oocyte maturation'
+p856
+aS'Prolactin signaling pathway'
+p857
+aS'Oxytocin signaling pathway'
+p858
+aS'Thyroid hormone synthesis'
+p859
+aS'Thyroid hormone signaling pathway'
+p860
+aS'Melanogenesis'
+p861
+aS'Renin secretion'
+p862
+aS'Renin-angiotensin system'
+p863
+aS'Aldosterone synthesis and secretion'
+p864
+aFnan
+aS'Cardiac muscle contraction'
+p865
+aS'Adrenergic signaling in cardiomyocytes'
+p866
+aS'Vascular smooth muscle contraction'
+p867
+aFnan
+aS'Salivary secretion'
+p868
+aS'Gastric acid secretion'
+p869
+aS'Pancreatic secretion'
+p870
+aS'Bile secretion'
+p871
+aS'Carbohydrate digestion and absorption'
+p872
+aS'Protein digestion and absorption'
+p873
+aS'Fat digestion and absorption'
+p874
+aS'Vitamin digestion and absorption'
+p875
+aS'Mineral absorption'
+p876
+aFnan
+aS'Vasopressin-regulated water reabsorption'
+p877
+aS'Aldosterone-regulated sodium reabsorption'
+p878
+aS'Endocrine and other factor-regulated calcium reabsorption'
+p879
+aS'Proximal tubule bicarbonate reclamation'
+p880
+aS'Collecting duct acid secretion'
+p881
+aFnan
+aS'Glutamatergic synapse'
+p882
+aS'GABAergic synapse'
+p883
+aS'Cholinergic synapse'
+p884
+aS'Dopaminergic synapse'
+p885
+aS'Serotonergic synapse'
+p886
+aS'Long-term potentiation'
+p887
+aS'Long-term depression'
+p888
+aS'Retrograde endocannabinoid signaling'
+p889
+aS'Synaptic vesicle cycle'
+p890
+aS'Neurotrophin signaling pathway'
+p891
+aFnan
+aS'Phototransduction'
+p892
+aS'Phototransduction - fly'
+p893
+aS'Olfactory transduction'
+p894
+aS'Taste transduction'
+p895
+aS'Inflammatory mediator regulation of TRP channels'
+p896
+aFnan
+aS'Dorso-ventral axis formation'
+p897
+aS'Axon guidance'
+p898
+aS'Osteoclast differentiation'
+p899
+aFnan
+aS'Circadian rhythm'
+p900
+aS'Circadian entrainment'
+p901
+aS'Circadian rhythm - fly'
+p902
+aS'Circadian rhythm - plant'
+p903
+aS'Plant-pathogen interaction'
+p904
+aFnan
+aFnan
+aS'Pathways in cancer'
+p905
+aS'Central carbon metabolism in cancer'
+p906
+aS'Choline metabolism in cancer'
+p907
+aS'Transcriptional misregulation in cancer'
+p908
+aS'MicroRNAs in cancer'
+p909
+aS'Proteoglycans in cancer'
+p910
+aS'Chemical carcinogenesis'
+p911
+aS'Viral carcinogenesis'
+p912
+aFnan
+aS'Colorectal cancer'
+p913
+aS'Pancreatic cancer'
+p914
+aS'Glioma'
+p915
+aS'Thyroid cancer'
+p916
+aS'Acute myeloid leukemia'
+p917
+aS'Chronic myeloid leukemia'
+p918
+aS'Basal cell carcinoma'
+p919
+aS'Melanoma'
+p920
+aS'Renal cell carcinoma'
+p921
+aS'Bladder cancer'
+p922
+aS'Prostate cancer'
+p923
+aS'Endometrial cancer'
+p924
+aS'Small cell lung cancer'
+p925
+aS'Non-small cell lung cancer'
+p926
+aFnan
+aS'Asthma'
+p927
+aS'Systemic lupus erythematosus'
+p928
+aS'Rheumatoid arthritis'
+p929
+aS'Autoimmune thyroid disease'
+p930
+aS'Inflammatory bowel disease (IBD)'
+p931
+aS'Allograft rejection'
+p932
+aS'Graft-versus-host disease'
+p933
+aS'Primary immunodeficiency'
+p934
+aFnan
+aS"Alzheimer's disease"
+p935
+aS"Parkinson's disease"
+p936
+aS'Amyotrophic lateral sclerosis (ALS)'
+p937
+aS"Huntington's disease"
+p938
+aS'Prion diseases'
+p939
+aFnan
+aS'Cocaine addiction'
+p940
+aS'Amphetamine addiction'
+p941
+aS'Morphine addiction'
+p942
+aS'Nicotine addiction'
+p943
+aS'Alcoholism'
+p944
+aFnan
+aS'Hypertrophic cardiomyopathy (HCM)'
+p945
+aS'Arrhythmogenic right ventricular cardiomyopathy (ARVC)'
+p946
+aS'Dilated cardiomyopathy'
+p947
+aS'Viral myocarditis'
+p948
+aFnan
+aS'Type II diabetes mellitus'
+p949
+aS'Type I diabetes mellitus'
+p950
+aS'Maturity onset diabetes of the young'
+p951
+aS'Non-alcoholic fatty liver disease (NAFLD)'
+p952
+aS'Insulin resistance'
+p953
+aFnan
+aS'Vibrio cholerae infection'
+p954
+aS'Vibrio cholerae pathogenic cycle'
+p955
+aS'Epithelial cell signaling in Helicobacter pylori infection'
+p956
+aS'Pathogenic Escherichia coli infection'
+p957
+aS'Salmonella infection'
+p958
+aS'Shigellosis'
+p959
+aS'Pertussis'
+p960
+aS'Legionellosis'
+p961
+aS'Staphylococcus aureus infection'
+p962
+aS'Tuberculosis'
+p963
+aS'Bacterial invasion of epithelial cells'
+p964
+aFnan
+aS'HTLV-I infection'
+p965
+aS'Measles'
+p966
+aS'Influenza A'
+p967
+aS'Hepatitis B'
+p968
+aS'Hepatitis C'
+p969
+aS'Herpes simplex infection'
+p970
+aS'Epstein-Barr virus infection'
+p971
+aFnan
+aS'Amoebiasis'
+p972
+aS'Malaria'
+p973
+aS'Toxoplasmosis'
+p974
+aS'Leishmaniasis'
+p975
+aS'Chagas disease (American trypanosomiasis)'
+p976
+aS'African trypanosomiasis'
+p977
+aFnan
+aS'beta-Lactam resistance'
+p978
+aS'Vancomycin resistance'
+p979
+aS'Cationic antimicrobial peptide (CAMP) resistance'
+p980
+aFnan
+aFnan
+aS'Penicillins'
+p981
+aS'Cephalosporins - parenteral agents'
+p982
+aS'Cephalosporins - oral agents'
+p983
+aS'Aminoglycosides'
+p984
+aS'Tetracyclines'
+p985
+aS'Macrolides and ketolides'
+p986
+aS'Quinolones'
+p987
+aS'Rifamycins'
+p988
+aS'Antifungal agents'
+p989
+aS'Antivirals'
+p990
+aS'Anti-HIV agents'
+p991
+aFnan
+aS'Antineoplastics - alkylating agents'
+p992
+aS'Antineoplastics - antimetabolic agents'
+p993
+aS'Antineoplastics - agents from natural products'
+p994
+aS'Antineoplastics - hormones'
+p995
+aS'Antineoplastics - protein kinases inhibitors'
+p996
+aFnan
+aS'Hypnotics'
+p997
+aS'Anxiolytics'
+p998
+aS'Anticonvulsants'
+p999
+aS'Local analgesics'
+p1000
+aS'Opioid analgesics'
+p1001
+aS'Antipsychotics'
+p1002
+aS'Phenothiazines'
+p1003
+aS'Butyrophenones'
+p1004
+aS'Antidepressants'
+p1005
+aS'Agents for Alzheimer-type dementia'
+p1006
+aS'Antiparkinsonian agents'
+p1007
+aFnan
+aS'Sulfonamide derivatives - overview'
+p1008
+aS'Sulfonamide derivatives - sulfa drugs'
+p1009
+aS'Sulfonamide derivatives - diuretics'
+p1010
+aS'Sulfonamide derivatives - hypoglycemic agents'
+p1011
+aS'Antiarrhythmic drugs'
+p1012
+aS'Antiulcer drugs'
+p1013
+aS'Immunosuppressive agents'
+p1014
+aS'Osteoporosis drugs'
+p1015
+aS'Antimigraines'
+p1016
+aS'Antithrombosis agents'
+p1017
+aS'Antirheumatics - DMARDs and biological agents'
+p1018
+aS'Antidiabetics'
+p1019
+aS'Antidyslipidemic agents'
+p1020
+aS'Antiglaucoma agents'
+p1021
+aFnan
+aS'Cholinergic and anticholinergic drugs'
+p1022
+aS'alpha-Adrenergic receptor agonists/antagonists'
+p1023
+aS'beta-Adrenergic receptor agonists/antagonists'
+p1024
+aS'Dopamine receptor agonists/antagonists'
+p1025
+aS'Histamine H1 receptor antagonists'
+p1026
+aS'Histamine H2/H3 receptor agonists/antagonists'
+p1027
+aS'Serotonin receptor agonists/antagonists'
+p1028
+aS'Eicosanoid receptor agonists/antagonists'
+p1029
+aS'Opioid receptor agonists/antagonists'
+p1030
+aS'Angiotensin receptor and endothelin receptor antagonists'
+p1031
+aFnan
+aS'Glucocorticoid and meneralocorticoid receptor agonists/antagonists'
+p1032
+aS'Progesterone, androgen and estrogen receptor agonists/antagonists'
+p1033
+aS'Retinoic acid receptor (RAR) and retinoid X receptor (RXR) agonists/antagonists'
+p1034
+aS'Peroxisome proliferator-activated receptor (PPAR) agonists'
+p1035
+aFnan
+aS'Nicotinic cholinergic receptor antagonists'
+p1036
+aS'GABA-A receptor agonists/antagonists'
+p1037
+aS'Calcium channel blocking drugs'
+p1038
+aS'Sodium channel blocking drugs'
+p1039
+aS'Potassium channel blocking and opening drugs'
+p1040
+aS'N-Metyl-D-aspartic acid receptor antagonists'
+p1041
+aFnan
+aS'Ion transporter inhibitors'
+p1042
+aS'Neurotransmitter transporter inhibitors'
+p1043
+aFnan
+aS'Catecholamine transferase inhibitors'
+p1044
+aS'Cyclooxygenase inhibitors'
+p1045
+aS'HMG-CoA reductase inhibitors'
+p1046
+aS'Renin-angiotensin system inhibitors'
+p1047
+aS'HIV protease inhibitors'
+p1048
+aFnan
+aS'Quinolines'
+p1049
+aS'Eicosanoids'
+p1050
+aS'Prostaglandins'
+p1051
+aFnan
+aS'Benzoic acid family'
+p1052
+aS'1,2-Diphenyl substitution family'
+p1053
+aS'Naphthalene family'
+p1054
+aS'Benzodiazepine family'
+p1055
+aS'A<b>Metabolism</b>\n'
+p1056
+aS'B  Global and overview maps\n'
+p1057
+aS'C    01100  Metabolic pathways\n'
+p1058
+aS'C    01110  Biosynthesis of secondary metabolites\n'
+p1059
+aS'C    01120  Microbial metabolism in diverse environments\n'
+p1060
+aS'C    01130  Biosynthesis of antibiotics\n'
+p1061
+aS'C    01200  Carbon metabolism\n'
+p1062
+aS'C    01210  2-Oxocarboxylic acid metabolism\n'
+p1063
+aS'C    01212  Fatty acid metabolism\n'
+p1064
+aS'C    01230  Biosynthesis of amino acids\n'
+p1065
+aS'C    01220  Degradation of aromatic compounds\n'
+p1066
+aS'B  Carbohydrate metabolism\n'
+p1067
+aS'C    00010  Glycolysis / Gluconeogenesis\n'
+p1068
+aS'C    00020  Citrate cycle (TCA cycle)\n'
+p1069
+aS'C    00030  Pentose phosphate pathway\n'
+p1070
+aS'C    00040  Pentose and glucuronate interconversions\n'
+p1071
+aS'C    00051  Fructose and mannose metabolism\n'
+p1072
+aS'C    00052  Galactose metabolism\n'
+p1073
+aS'C    00053  Ascorbate and aldarate metabolism\n'
+p1074
+aS'C    00500  Starch and sucrose metabolism\n'
+p1075
+aS'C    00520  Amino sugar and nucleotide sugar metabolism\n'
+p1076
+aS'C    00620  Pyruvate metabolism\n'
+p1077
+aS'C    00630  Glyoxylate and dicarboxylate metabolism\n'
+p1078
+aS'C    00640  Propanoate metabolism\n'
+p1079
+aS'C    00650  Butanoate metabolism\n'
+p1080
+aS'C    00660  C5-Branched dibasic acid metabolism\n'
+p1081
+aS'C    00562  Inositol phosphate metabolism\n'
+p1082
+aS'B  Energy metabolism\n'
+p1083
+aS'C    00190  Oxidative phosphorylation\n'
+p1084
+aS'C    00195  Photosynthesis\n'
+p1085
+aS'C    00196  Photosynthesis - antenna proteins\n'
+p1086
+aS'C    00710  Carbon fixation in photosynthetic organisms\n'
+p1087
+aS'C    00720  Carbon fixation pathways in prokaryotes\n'
+p1088
+aS'C    00680  Methane metabolism\n'
+p1089
+aS'C    00910  Nitrogen metabolism\n'
+p1090
+aS'C    00920  Sulfur metabolism\n'
+p1091
+aS'B  Lipid metabolism\n'
+p1092
+aS'C    00061  Fatty acid biosynthesis\n'
+p1093
+aS'C    00062  Fatty acid elongation\n'
+p1094
+aS'C    00071  Fatty acid degradation\n'
+p1095
+aS'C    00072  Synthesis and degradation of ketone bodies\n'
+p1096
+aS'C    00073  Cutin, suberine and wax biosynthesis\n'
+p1097
+aS'C    00100  Steroid biosynthesis\n'
+p1098
+aS'C    00120  Primary bile acid biosynthesis\n'
+p1099
+aS'C    00121  Secondary bile acid biosynthesis\n'
+p1100
+aS'C    00140  Steroid hormone biosynthesis\n'
+p1101
+aS'C    00561  Glycerolipid metabolism\n'
+p1102
+aS'C    00564  Glycerophospholipid metabolism\n'
+p1103
+aS'C    00565  Ether lipid metabolism\n'
+p1104
+aS'C    00600  Sphingolipid metabolism\n'
+p1105
+aS'C    00590  Arachidonic acid metabolism\n'
+p1106
+aS'C    00591  Linoleic acid metabolism\n'
+p1107
+aS'C    00592  alpha-Linolenic acid metabolism\n'
+p1108
+aS'C    01040  Biosynthesis of unsaturated fatty acids\n'
+p1109
+aS'B  Nucleotide metabolism\n'
+p1110
+aS'C    00230  Purine metabolism\n'
+p1111
+aS'C    00240  Pyrimidine metabolism\n'
+p1112
+aS'B  Amino acid metabolism\n'
+p1113
+aS'C    00250  Alanine, aspartate and glutamate metabolism\n'
+p1114
+aS'C    00260  Glycine, serine and threonine metabolism\n'
+p1115
+aS'C    00270  Cysteine and methionine metabolism\n'
+p1116
+aS'C    00280  Valine, leucine and isoleucine degradation\n'
+p1117
+aS'C    00290  Valine, leucine and isoleucine biosynthesis\n'
+p1118
+aS'C    00300  Lysine biosynthesis\n'
+p1119
+aS'C    00310  Lysine degradation\n'
+p1120
+aS'C    00220  Arginine biosynthesis\n'
+p1121
+aS'C    00330  Arginine and proline metabolism\n'
+p1122
+aS'C    00340  Histidine metabolism\n'
+p1123
+aS'C    00350  Tyrosine metabolism\n'
+p1124
+aS'C    00360  Phenylalanine metabolism\n'
+p1125
+aS'C    00380  Tryptophan metabolism\n'
+p1126
+aS'C    00400  Phenylalanine, tyrosine and tryptophan biosynthesis\n'
+p1127
+aS'B  Metabolism of other amino acids\n'
+p1128
+aS'C    00410  beta-Alanine metabolism\n'
+p1129
+aS'C    00430  Taurine and hypotaurine metabolism\n'
+p1130
+aS'C    00440  Phosphonate and phosphinate metabolism\n'
+p1131
+aS'C    00450  Selenocompound metabolism\n'
+p1132
+aS'C    00460  Cyanoamino acid metabolism\n'
+p1133
+aS'C    00471  D-Glutamine and D-glutamate metabolism\n'
+p1134
+aS'C    00472  D-Arginine and D-ornithine metabolism\n'
+p1135
+aS'C    00473  D-Alanine metabolism\n'
+p1136
+aS'C    00480  Glutathione metabolism\n'
+p1137
+aS'B  Glycan biosynthesis and metabolism\n'
+p1138
+aS'C    00510  N-Glycan biosynthesis\n'
+p1139
+aS'C    00513  Various types of N-glycan biosynthesis\n'
+p1140
+aS'C    00512  Mucin type O-Glycan biosynthesis\n'
+p1141
+aS'C    00514  Other types of O-glycan biosynthesis\n'
+p1142
+aS'C    00532  Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate\n'
+p1143
+aS'C    00534  Glycosaminoglycan biosynthesis - heparan sulfate / heparin\n'
+p1144
+aS'C    00533  Glycosaminoglycan biosynthesis - keratan sulfate\n'
+p1145
+aS'C    00531  Glycosaminoglycan degradation\n'
+p1146
+aS'C    00563  Glycosylphosphatidylinositol(GPI)-anchor biosynthesis\n'
+p1147
+aS'C    00601  Glycosphingolipid biosynthesis - lacto and neolacto series\n'
+p1148
+aS'C    00603  Glycosphingolipid biosynthesis - globo series\n'
+p1149
+aS'C    00604  Glycosphingolipid biosynthesis - ganglio series\n'
+p1150
+aS'C    00540  Lipopolysaccharide biosynthesis\n'
+p1151
+aS'C    00550  Peptidoglycan biosynthesis\n'
+p1152
+aS'C    00511  Other glycan degradation\n'
+p1153
+aS'B  Metabolism of cofactors and vitamins\n'
+p1154
+aS'C    00730  Thiamine metabolism\n'
+p1155
+aS'C    00740  Riboflavin metabolism\n'
+p1156
+aS'C    00750  Vitamin B6 metabolism\n'
+p1157
+aS'C    00760  Nicotinate and nicotinamide metabolism\n'
+p1158
+aS'C    00770  Pantothenate and CoA biosynthesis\n'
+p1159
+aS'C    00780  Biotin metabolism\n'
+p1160
+aS'C    00785  Lipoic acid metabolism\n'
+p1161
+aS'C    00790  Folate biosynthesis\n'
+p1162
+aS'C    00670  One carbon pool by folate\n'
+p1163
+aS'C    00830  Retinol metabolism\n'
+p1164
+aS'C    00860  Porphyrin and chlorophyll metabolism\n'
+p1165
+aS'C    00130  Ubiquinone and other terpenoid-quinone biosynthesis\n'
+p1166
+aS'B  Metabolism of terpenoids and polyketides\n'
+p1167
+aS'C    00900  Terpenoid backbone biosynthesis\n'
+p1168
+aS'C    00902  Monoterpenoid biosynthesis\n'
+p1169
+aS'C    00909  Sesquiterpenoid and triterpenoid biosynthesis\n'
+p1170
+aS'C    00904  Diterpenoid biosynthesis\n'
+p1171
+aS'C    00906  Carotenoid biosynthesis\n'
+p1172
+aS'C    00905  Brassinosteroid biosynthesis\n'
+p1173
+aS'C    00981  Insect hormone biosynthesis\n'
+p1174
+aS'C    00908  Zeatin biosynthesis\n'
+p1175
+aS'C    00903  Limonene and pinene degradation\n'
+p1176
+aS'C    00281  Geraniol degradation\n'
+p1177
+aS'C    01052  Type I polyketide structures\n'
+p1178
+aS'C    00522  Biosynthesis of 12-, 14- and 16-membered macrolides\n'
+p1179
+aS'C    01051  Biosynthesis of ansamycins\n'
+p1180
+aS'C    01056  Biosynthesis of type II polyketide backbone\n'
+p1181
+aS'C    01057  Biosynthesis of type II polyketide products\n'
+p1182
+aS'C    00253  Tetracycline biosynthesis\n'
+p1183
+aS'C    00523  Polyketide sugar unit biosynthesis\n'
+p1184
+aS'C    01054  Nonribosomal peptide structures\n'
+p1185
+aS'C    01053  Biosynthesis of siderophore group nonribosomal peptides\n'
+p1186
+aS'C    01055  Biosynthesis of vancomycin group antibiotics\n'
+p1187
+aS'B  Biosynthesis of other secondary metabolites\n'
+p1188
+aS'C    00940  Phenylpropanoid biosynthesis\n'
+p1189
+aS'C    00945  Stilbenoid, diarylheptanoid and gingerol biosynthesis\n'
+p1190
+aS'C    00941  Flavonoid biosynthesis\n'
+p1191
+aS'C    00944  Flavone and flavonol biosynthesis\n'
+p1192
+aS'C    00942  Anthocyanin biosynthesis\n'
+p1193
+aS'C    00943  Isoflavonoid biosynthesis\n'
+p1194
+aS'C    00901  Indole alkaloid biosynthesis\n'
+p1195
+aS'C    00403  Indole diterpene alkaloid biosynthesis\n'
+p1196
+aS'C    00950  Isoquinoline alkaloid biosynthesis\n'
+p1197
+aS'C    00960  Tropane, piperidine and pyridine alkaloid biosynthesis\n'
+p1198
+aS'C    01058  Acridone alkaloid biosynthesis\n'
+p1199
+aS'C    00232  Caffeine metabolism\n'
+p1200
+aS'C    00965  Betalain biosynthesis\n'
+p1201
+aS'C    00966  Glucosinolate biosynthesis\n'
+p1202
+aS'C    00402  Benzoxazinoid biosynthesis\n'
+p1203
+aS'C    00311  Penicillin and cephalosporin biosynthesis\n'
+p1204
+aS'C    00332  Carbapenem biosynthesis\n'
+p1205
+aS'C    00261  Monobactam biosynthesis\n'
+p1206
+aS'C    00331  Clavulanic acid biosynthesis\n'
+p1207
+aS'C    00521  Streptomycin biosynthesis\n'
+p1208
+aS'C    00524  Butirosin and neomycin biosynthesis\n'
+p1209
+aS'C    00231  Puromycin biosynthesis\n'
+p1210
+aS'C    00401  Novobiocin biosynthesis\n'
+p1211
+aS'C    00254  Aflatoxin biosynthesis\n'
+p1212
+aS'B  Xenobiotics biodegradation and metabolism\n'
+p1213
+aS'C    00362  Benzoate degradation\n'
+p1214
+aS'C    00627  Aminobenzoate degradation\n'
+p1215
+aS'C    00364  Fluorobenzoate degradation\n'
+p1216
+aS'C    00625  Chloroalkane and chloroalkene degradation\n'
+p1217
+aS'C    00361  Chlorocyclohexane and chlorobenzene degradation\n'
+p1218
+aS'C    00623  Toluene degradation\n'
+p1219
+aS'C    00622  Xylene degradation\n'
+p1220
+aS'C    00633  Nitrotoluene degradation\n'
+p1221
+aS'C    00642  Ethylbenzene degradation\n'
+p1222
+aS'C    00643  Styrene degradation\n'
+p1223
+aS'C    00791  Atrazine degradation\n'
+p1224
+aS'C    00930  Caprolactam degradation\n'
+p1225
+aS'C    00351  DDT degradation\n'
+p1226
+aS'C    00363  Bisphenol degradation\n'
+p1227
+aS'C    00621  Dioxin degradation\n'
+p1228
+aS'C    00626  Naphthalene degradation\n'
+p1229
+aS'C    00624  Polycyclic aromatic hydrocarbon degradation\n'
+p1230
+aS'C    00365  Furfural degradation\n'
+p1231
+aS'C    00984  Steroid degradation\n'
+p1232
+aS'C    00980  Metabolism of xenobiotics by cytochrome P450\n'
+p1233
+aS'C    00982  Drug metabolism - cytochrome P450\n'
+p1234
+aS'C    00983  Drug metabolism - other enzymes\n'
+p1235
+aS'B  Chemical structure transformation maps\n'
+p1236
+aS'C    01010  Overview of biosynthetic pathways\n'
+p1237
+aS'C    01060  Biosynthesis of plant secondary metabolites\n'
+p1238
+aS'C    01061  Biosynthesis of phenylpropanoids\n'
+p1239
+aS'C    01062  Biosynthesis of terpenoids and steroids\n'
+p1240
+aS'C    01063  Biosynthesis of alkaloids derived from shikimate pathway\n'
+p1241
+aS'C    01064  Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid\n'
+p1242
+aS'C    01065  Biosynthesis of alkaloids derived from histidine and purine\n'
+p1243
+aS'C    01066  Biosynthesis of alkaloids derived from terpenoid and polyketide\n'
+p1244
+aS'C    01070  Biosynthesis of plant hormones\n'
+p1245
+aS'A<b>Genetic Information Processing</b>\n'
+p1246
+aS'B  Transcription\n'
+p1247
+aS'C    03020  RNA polymerase\n'
+p1248
+aS'C    03022  Basal transcription factors\n'
+p1249
+aS'C    03040  Spliceosome\n'
+p1250
+aS'B  Translation\n'
+p1251
+aS'C    03010  Ribosome\n'
+p1252
+aS'C    00970  Aminoacyl-tRNA biosynthesis\n'
+p1253
+aS'C    03013  RNA transport\n'
+p1254
+aS'C    03015  mRNA surveillance pathway\n'
+p1255
+aS'C    03008  Ribosome biogenesis in eukaryotes\n'
+p1256
+aS'B  Folding, sorting and degradation\n'
+p1257
+aS'C    03060  Protein export\n'
+p1258
+aS'C    04141  Protein processing in endoplasmic reticulum\n'
+p1259
+aS'C    04130  SNARE interactions in vesicular transport\n'
+p1260
+aS'C    04120  Ubiquitin mediated proteolysis\n'
+p1261
+aS'C    04122  Sulfur relay system\n'
+p1262
+aS'C    03050  Proteasome\n'
+p1263
+aS'C    03018  RNA degradation\n'
+p1264
+aS'B  Replication and repair\n'
+p1265
+aS'C    03030  DNA replication\n'
+p1266
+aS'C    03410  Base excision repair\n'
+p1267
+aS'C    03420  Nucleotide excision repair\n'
+p1268
+aS'C    03430  Mismatch repair\n'
+p1269
+aS'C    03440  Homologous recombination\n'
+p1270
+aS'C    03450  Non-homologous end-joining\n'
+p1271
+aS'C    03460  Fanconi anemia pathway\n'
+p1272
+aS'A<b>Environmental Information Processing</b>\n'
+p1273
+aS'B  Membrane transport\n'
+p1274
+aS'C    02010  ABC transporters\n'
+p1275
+aS'C    02060  Phosphotransferase system (PTS)\n'
+p1276
+aS'C    03070  Bacterial secretion system\n'
+p1277
+aS'B  Signal transduction\n'
+p1278
+aS'C    02020  Two-component system\n'
+p1279
+aS'C    04014  Ras signaling pathway\n'
+p1280
+aS'C    04015  Rap1 signaling pathway\n'
+p1281
+aS'C    04010  MAPK signaling pathway\n'
+p1282
+aS'C    04013  MAPK signaling pathway - fly\n'
+p1283
+aS'C    04011  MAPK signaling pathway - yeast\n'
+p1284
+aS'C    04012  ErbB signaling pathway\n'
+p1285
+aS'C    04310  Wnt signaling pathway\n'
+p1286
+aS'C    04330  Notch signaling pathway\n'
+p1287
+aS'C    04340  Hedgehog signaling pathway\n'
+p1288
+aS'C    04350  TGF-beta signaling pathway\n'
+p1289
+aS'C    04390  Hippo signaling pathway\n'
+p1290
+aS'C    04391  Hippo signaling pathway - fly\n'
+p1291
+aS'C    04370  VEGF signaling pathway\n'
+p1292
+aS'C    04630  Jak-STAT signaling pathway\n'
+p1293
+aS'C    04064  NF-kappa B signaling pathway\n'
+p1294
+aS'C    04668  TNF signaling pathway\n'
+p1295
+aS'C    04066  HIF-1 signaling pathway\n'
+p1296
+aS'C    04068  FoxO signaling pathway\n'
+p1297
+aS'C    04020  Calcium signaling pathway\n'
+p1298
+aS'C    04070  Phosphatidylinositol signaling system\n'
+p1299
+aS'C    04072  Phospholipase D signaling pathway\n'
+p1300
+aS'C    04071  Sphingolipid signaling pathway\n'
+p1301
+aS'C    04024  cAMP signaling pathway\n'
+p1302
+aS'C    04022  cGMP-PKG signaling pathway\n'
+p1303
+aS'C    04151  PI3K-Akt signaling pathway\n'
+p1304
+aS'C    04152  AMPK signaling pathway\n'
+p1305
+aS'C    04150  mTOR signaling pathway\n'
+p1306
+aS'C    04075  Plant hormone signal transduction\n'
+p1307
+aS'B  Signaling molecules and interaction\n'
+p1308
+aS'C    04080  Neuroactive ligand-receptor interaction\n'
+p1309
+aS'C    04060  Cytokine-cytokine receptor interaction\n'
+p1310
+aS'C    04512  ECM-receptor interaction\n'
+p1311
+aS'C    04514  Cell adhesion molecules (CAMs)\n'
+p1312
+aS'A<b>Cellular Processes</b>\n'
+p1313
+aS'B  Transport and catabolism\n'
+p1314
+aS'C    04144  Endocytosis\n'
+p1315
+aS'C    04145  Phagosome\n'
+p1316
+aS'C    04142  Lysosome\n'
+p1317
+aS'C    04146  Peroxisome\n'
+p1318
+aS'C    04140  Regulation of autophagy\n'
+p1319
+aS'B  Cell motility\n'
+p1320
+aS'C    02030  Bacterial chemotaxis\n'
+p1321
+aS'C    02040  Flagellar assembly\n'
+p1322
+aS'C    04810  Regulation of actin cytoskeleton\n'
+p1323
+aS'B  Cell growth and death\n'
+p1324
+aS'C    04110  Cell cycle\n'
+p1325
+aS'C    04111  Cell cycle - yeast\n'
+p1326
+aS'C    04112  Cell cycle - Caulobacter\n'
+p1327
+aS'C    04113  Meiosis - yeast\n'
+p1328
+aS'C    04114  Oocyte meiosis\n'
+p1329
+aS'C    04210  Apoptosis\n'
+p1330
+aS'C    04115  p53 signaling pathway\n'
+p1331
+aS'B  Cellular community\n'
+p1332
+aS'C    04510  Focal adhesion\n'
+p1333
+aS'C    04520  Adherens junction\n'
+p1334
+aS'C    04530  Tight junction\n'
+p1335
+aS'C    04540  Gap junction\n'
+p1336
+aS'C    04550  Signaling pathways regulating pluripotency of stem cells\n'
+p1337
+aS'A<b>Organismal Systems</b>\n'
+p1338
+aS'B  Immune system\n'
+p1339
+aS'C    04640  Hematopoietic cell lineage\n'
+p1340
+aS'C    04610  Complement and coagulation cascades\n'
+p1341
+aS'C    04611  Platelet activation\n'
+p1342
+aS'C    04620  Toll-like receptor signaling pathway\n'
+p1343
+aS'C    04621  NOD-like receptor signaling pathway\n'
+p1344
+aS'C    04622  RIG-I-like receptor signaling pathway\n'
+p1345
+aS'C    04623  Cytosolic DNA-sensing pathway\n'
+p1346
+aS'C    04650  Natural killer cell mediated cytotoxicity\n'
+p1347
+aS'C    04612  Antigen processing and presentation\n'
+p1348
+aS'C    04660  T cell receptor signaling pathway\n'
+p1349
+aS'C    04662  B cell receptor signaling pathway\n'
+p1350
+aS'C    04664  Fc epsilon RI signaling pathway\n'
+p1351
+aS'C    04666  Fc gamma R-mediated phagocytosis\n'
+p1352
+aS'C    04670  Leukocyte transendothelial migration\n'
+p1353
+aS'C    04672  Intestinal immune network for IgA production\n'
+p1354
+aS'C    04062  Chemokine signaling pathway\n'
+p1355
+aS'B  Endocrine system\n'
+p1356
+aS'C    04911  Insulin secretion\n'
+p1357
+aS'C    04910  Insulin signaling pathway\n'
+p1358
+aS'C    04922  Glucagon signaling pathway\n'
+p1359
+aS'C    04923  Regulation of lipolysis in adipocytes\n'
+p1360
+aS'C    04920  Adipocytokine signaling pathway\n'
+p1361
+aS'C    03320  PPAR signaling pathway\n'
+p1362
+aS'C    04912  GnRH signaling pathway\n'
+p1363
+aS'C    04913  Ovarian steroidogenesis\n'
+p1364
+aS'C    04915  Estrogen signaling pathway\n'
+p1365
+aS'C    04914  Progesterone-mediated oocyte maturation\n'
+p1366
+aS'C    04917  Prolactin signaling pathway\n'
+p1367
+aS'C    04921  Oxytocin signaling pathway\n'
+p1368
+aS'C    04918  Thyroid hormone synthesis\n'
+p1369
+aS'C    04919  Thyroid hormone signaling pathway\n'
+p1370
+aS'C    04916  Melanogenesis\n'
+p1371
+aS'C    04924  Renin secretion\n'
+p1372
+aS'C    04614  Renin-angiotensin system\n'
+p1373
+aS'C    04925  Aldosterone synthesis and secretion\n'
+p1374
+aS'B  Circulatory system\n'
+p1375
+aS'C    04260  Cardiac muscle contraction\n'
+p1376
+aS'C    04261  Adrenergic signaling in cardiomyocytes\n'
+p1377
+aS'C    04270  Vascular smooth muscle contraction\n'
+p1378
+aS'B  Digestive system\n'
+p1379
+aS'C    04970  Salivary secretion\n'
+p1380
+aS'C    04971  Gastric acid secretion\n'
+p1381
+aS'C    04972  Pancreatic secretion\n'
+p1382
+aS'C    04976  Bile secretion\n'
+p1383
+aS'C    04973  Carbohydrate digestion and absorption\n'
+p1384
+aS'C    04974  Protein digestion and absorption\n'
+p1385
+aS'C    04975  Fat digestion and absorption\n'
+p1386
+aS'C    04977  Vitamin digestion and absorption\n'
+p1387
+aS'C    04978  Mineral absorption\n'
+p1388
+aS'B  Excretory system\n'
+p1389
+aS'C    04962  Vasopressin-regulated water reabsorption\n'
+p1390
+aS'C    04960  Aldosterone-regulated sodium reabsorption\n'
+p1391
+aS'C    04961  Endocrine and other factor-regulated calcium reabsorption\n'
+p1392
+aS'C    04964  Proximal tubule bicarbonate reclamation\n'
+p1393
+aS'C    04966  Collecting duct acid secretion\n'
+p1394
+aS'B  Nervous system\n'
+p1395
+aS'C    04724  Glutamatergic synapse\n'
+p1396
+aS'C    04727  GABAergic synapse\n'
+p1397
+aS'C    04725  Cholinergic synapse\n'
+p1398
+aS'C    04728  Dopaminergic synapse\n'
+p1399
+aS'C    04726  Serotonergic synapse\n'
+p1400
+aS'C    04720  Long-term potentiation\n'
+p1401
+aS'C    04730  Long-term depression\n'
+p1402
+aS'C    04723  Retrograde endocannabinoid signaling\n'
+p1403
+aS'C    04721  Synaptic vesicle cycle\n'
+p1404
+aS'C    04722  Neurotrophin signaling pathway\n'
+p1405
+aS'B  Sensory system\n'
+p1406
+aS'C    04744  Phototransduction\n'
+p1407
+aS'C    04745  Phototransduction - fly\n'
+p1408
+aS'C    04740  Olfactory transduction\n'
+p1409
+aS'C    04742  Taste transduction\n'
+p1410
+aS'C    04750  Inflammatory mediator regulation of TRP channels\n'
+p1411
+aS'B  Development\n'
+p1412
+aS'C    04320  Dorso-ventral axis formation\n'
+p1413
+aS'C    04360  Axon guidance\n'
+p1414
+aS'C    04380  Osteoclast differentiation\n'
+p1415
+aS'B  Environmental adaptation\n'
+p1416
+aS'C    04710  Circadian rhythm\n'
+p1417
+aS'C    04713  Circadian entrainment\n'
+p1418
+aS'C    04711  Circadian rhythm - fly\n'
+p1419
+aS'C    04712  Circadian rhythm - plant\n'
+p1420
+aS'C    04626  Plant-pathogen interaction\n'
+p1421
+aS'A<b>Human Diseases</b>\n'
+p1422
+aS'B  Cancers: Overview\n'
+p1423
+aS'C    05200  Pathways in cancer\n'
+p1424
+aS'C    05230  Central carbon metabolism in cancer\n'
+p1425
+aS'C    05231  Choline metabolism in cancer\n'
+p1426
+aS'C    05202  Transcriptional misregulation in cancer\n'
+p1427
+aS'C    05206  MicroRNAs in cancer\n'
+p1428
+aS'C    05205  Proteoglycans in cancer\n'
+p1429
+aS'C    05204  Chemical carcinogenesis\n'
+p1430
+aS'C    05203  Viral carcinogenesis\n'
+p1431
+aS'B  Cancers: Specific types\n'
+p1432
+aS'C    05210  Colorectal cancer\n'
+p1433
+aS'C    05212  Pancreatic cancer\n'
+p1434
+aS'C    05214  Glioma\n'
+p1435
+aS'C    05216  Thyroid cancer\n'
+p1436
+aS'C    05221  Acute myeloid leukemia\n'
+p1437
+aS'C    05220  Chronic myeloid leukemia\n'
+p1438
+aS'C    05217  Basal cell carcinoma\n'
+p1439
+aS'C    05218  Melanoma\n'
+p1440
+aS'C    05211  Renal cell carcinoma\n'
+p1441
+aS'C    05219  Bladder cancer\n'
+p1442
+aS'C    05215  Prostate cancer\n'
+p1443
+aS'C    05213  Endometrial cancer\n'
+p1444
+aS'C    05222  Small cell lung cancer\n'
+p1445
+aS'C    05223  Non-small cell lung cancer\n'
+p1446
+aS'B  Immune diseases\n'
+p1447
+aS'C    05310  Asthma\n'
+p1448
+aS'C    05322  Systemic lupus erythematosus\n'
+p1449
+aS'C    05323  Rheumatoid arthritis\n'
+p1450
+aS'C    05320  Autoimmune thyroid disease\n'
+p1451
+aS'C    05321  Inflammatory bowel disease (IBD)\n'
+p1452
+aS'C    05330  Allograft rejection\n'
+p1453
+aS'C    05332  Graft-versus-host disease\n'
+p1454
+aS'C    05340  Primary immunodeficiency\n'
+p1455
+aS'B  Neurodegenerative diseases\n'
+p1456
+aS"C    05010  Alzheimer's disease\n"
+p1457
+aS"C    05012  Parkinson's disease\n"
+p1458
+aS'C    05014  Amyotrophic lateral sclerosis (ALS)\n'
+p1459
+aS"C    05016  Huntington's disease\n"
+p1460
+aS'C    05020  Prion diseases\n'
+p1461
+aS'B  Substance dependence\n'
+p1462
+aS'C    05030  Cocaine addiction\n'
+p1463
+aS'C    05031  Amphetamine addiction\n'
+p1464
+aS'C    05032  Morphine addiction\n'
+p1465
+aS'C    05033  Nicotine addiction\n'
+p1466
+aS'C    05034  Alcoholism\n'
+p1467
+aS'B  Cardiovascular diseases\n'
+p1468
+aS'C    05410  Hypertrophic cardiomyopathy (HCM)\n'
+p1469
+aS'C    05412  Arrhythmogenic right ventricular cardiomyopathy (ARVC)\n'
+p1470
+aS'C    05414  Dilated cardiomyopathy\n'
+p1471
+aS'C    05416  Viral myocarditis\n'
+p1472
+aS'B  Endocrine and metabolic diseases\n'
+p1473
+aS'C    04930  Type II diabetes mellitus\n'
+p1474
+aS'C    04940  Type I diabetes mellitus\n'
+p1475
+aS'C    04950  Maturity onset diabetes of the young\n'
+p1476
+aS'C    04932  Non-alcoholic fatty liver disease (NAFLD)\n'
+p1477
+aS'C    04931  Insulin resistance\n'
+p1478
+aS'B  Infectious diseases: Bacterial\n'
+p1479
+aS'C    05110  Vibrio cholerae infection\n'
+p1480
+aS'C    05111  Vibrio cholerae pathogenic cycle\n'
+p1481
+aS'C    05120  Epithelial cell signaling in Helicobacter pylori infection\n'
+p1482
+aS'C    05130  Pathogenic Escherichia coli infection\n'
+p1483
+aS'C    05132  Salmonella infection\n'
+p1484
+aS'C    05131  Shigellosis\n'
+p1485
+aS'C    05133  Pertussis\n'
+p1486
+aS'C    05134  Legionellosis\n'
+p1487
+aS'C    05150  Staphylococcus aureus infection\n'
+p1488
+aS'C    05152  Tuberculosis\n'
+p1489
+aS'C    05100  Bacterial invasion of epithelial cells\n'
+p1490
+aS'B  Infectious diseases: Viral\n'
+p1491
+aS'C    05166  HTLV-I infection\n'
+p1492
+aS'C    05162  Measles\n'
+p1493
+aS'C    05164  Influenza A\n'
+p1494
+aS'C    05161  Hepatitis B\n'
+p1495
+aS'C    05160  Hepatitis C\n'
+p1496
+aS'C    05168  Herpes simplex infection\n'
+p1497
+aS'C    05169  Epstein-Barr virus infection\n'
+p1498
+aS'B  Infectious diseases: Parasitic\n'
+p1499
+aS'C    05146  Amoebiasis\n'
+p1500
+aS'C    05144  Malaria\n'
+p1501
+aS'C    05145  Toxoplasmosis\n'
+p1502
+aS'C    05140  Leishmaniasis\n'
+p1503
+aS'C    05142  Chagas disease (American trypanosomiasis)\n'
+p1504
+aS'C    05143  African trypanosomiasis\n'
+p1505
+aS'B  Drug resistance\n'
+p1506
+aS'C    01501  beta-Lactam resistance\n'
+p1507
+aS'C    01502  Vancomycin resistance\n'
+p1508
+aS'C    01503  Cationic antimicrobial peptide (CAMP) resistance\n'
+p1509
+aS'A<b>Drug Development</b>\n'
+p1510
+aS'B  Chronology: Antiinfectives\n'
+p1511
+aS'C    07011  Penicillins\n'
+p1512
+aS'C    07012  Cephalosporins - parenteral agents\n'
+p1513
+aS'C    07013  Cephalosporins - oral agents\n'
+p1514
+aS'C    07021  Aminoglycosides\n'
+p1515
+aS'C    07019  Tetracyclines\n'
+p1516
+aS'C    07020  Macrolides and ketolides\n'
+p1517
+aS'C    07014  Quinolones\n'
+p1518
+aS'C    07023  Rifamycins\n'
+p1519
+aS'C    07026  Antifungal agents\n'
+p1520
+aS'C    07044  Antivirals\n'
+p1521
+aS'C    07053  Anti-HIV agents\n'
+p1522
+aS'B  Chronology: Antineoplastics\n'
+p1523
+aS'C    07040  Antineoplastics - alkylating agents\n'
+p1524
+aS'C    07041  Antineoplastics - antimetabolic agents\n'
+p1525
+aS'C    07042  Antineoplastics - agents from natural products\n'
+p1526
+aS'C    07043  Antineoplastics - hormones\n'
+p1527
+aS'C    07045  Antineoplastics - protein kinases inhibitors\n'
+p1528
+aS'B  Chronology: Nervous system agents\n'
+p1529
+aS'C    07032  Hypnotics\n'
+p1530
+aS'C    07030  Anxiolytics\n'
+p1531
+aS'C    07033  Anticonvulsants\n'
+p1532
+aS'C    07015  Local analgesics\n'
+p1533
+aS'C    07039  Opioid analgesics\n'
+p1534
+aS'C    07028  Antipsychotics\n'
+p1535
+aS'C    07029  Phenothiazines\n'
+p1536
+aS'C    07031  Butyrophenones\n'
+p1537
+aS'C    07027  Antidepressants\n'
+p1538
+aS'C    07056  Agents for Alzheimer-type dementia\n'
+p1539
+aS'C    07057  Antiparkinsonian agents\n'
+p1540
+aS'B  Chronology: Other drugs\n'
+p1541
+aS'C    07055  Sulfonamide derivatives - overview\n'
+p1542
+aS'C    07016  Sulfonamide derivatives - sulfa drugs\n'
+p1543
+aS'C    07017  Sulfonamide derivatives - diuretics\n'
+p1544
+aS'C    07018  Sulfonamide derivatives - hypoglycemic agents\n'
+p1545
+aS'C    07037  Antiarrhythmic drugs\n'
+p1546
+aS'C    07038  Antiulcer drugs\n'
+p1547
+aS'C    07046  Immunosuppressive agents\n'
+p1548
+aS'C    07047  Osteoporosis drugs\n'
+p1549
+aS'C    07048  Antimigraines\n'
+p1550
+aS'C    07049  Antithrombosis agents\n'
+p1551
+aS'C    07050  Antirheumatics - DMARDs and biological agents\n'
+p1552
+aS'C    07051  Antidiabetics\n'
+p1553
+aS'C    07052  Antidyslipidemic agents\n'
+p1554
+aS'C    07054  Antiglaucoma agents\n'
+p1555
+aS'B  Target-based classification: G protein-coupled receptors\n'
+p1556
+aS'C    07220  Cholinergic and anticholinergic drugs\n'
+p1557
+aS'C    07215  alpha-Adrenergic receptor agonists/antagonists\n'
+p1558
+aS'C    07214  beta-Adrenergic receptor agonists/antagonists\n'
+p1559
+aS'C    07213  Dopamine receptor agonists/antagonists\n'
+p1560
+aS'C    07212  Histamine H1 receptor antagonists\n'
+p1561
+aS'C    07227  Histamine H2/H3 receptor agonists/antagonists\n'
+p1562
+aS'C    07211  Serotonin receptor agonists/antagonists\n'
+p1563
+aS'C    07228  Eicosanoid receptor agonists/antagonists\n'
+p1564
+aS'C    07224  Opioid receptor agonists/antagonists\n'
+p1565
+aS'C    07229  Angiotensin receptor and endothelin receptor antagonists\n'
+p1566
+aS'B  Target-based classification: Nuclear receptors\n'
+p1567
+aS'C    07225  Glucocorticoid and meneralocorticoid receptor agonists/antagonists\n'
+p1568
+aS'C    07226  Progesterone, androgen and estrogen receptor agonists/antagonists\n'
+p1569
+aS'C    07223  Retinoic acid receptor (RAR) and retinoid X receptor (RXR) agonists/antagonists\n'
+p1570
+aS'C    07222  Peroxisome proliferator-activated receptor (PPAR) agonists\n'
+p1571
+aS'B  Target-based classification: Ion channels\n'
+p1572
+aS'C    07221  Nicotinic cholinergic receptor antagonists\n'
+p1573
+aS'C    07230  GABA-A receptor agonists/antagonists\n'
+p1574
+aS'C    07036  Calcium channel blocking drugs\n'
+p1575
+aS'C    07231  Sodium channel blocking drugs\n'
+p1576
+aS'C    07232  Potassium channel blocking and opening drugs\n'
+p1577
+aS'C    07235  N-Metyl-D-aspartic acid receptor antagonists\n'
+p1578
+aS'B  Target-based classification: Transporters\n'
+p1579
+aS'C    07233  Ion transporter inhibitors\n'
+p1580
+aS'C    07234  Neurotransmitter transporter inhibitors\n'
+p1581
+aS'B  Target-based classification: Enzymes\n'
+p1582
+aS'C    07216  Catecholamine transferase inhibitors\n'
+p1583
+aS'C    07219  Cyclooxygenase inhibitors\n'
+p1584
+aS'C    07024  HMG-CoA reductase inhibitors\n'
+p1585
+aS'C    07217  Renin-angiotensin system inhibitors\n'
+p1586
+aS'C    07218  HIV protease inhibitors\n'
+p1587
+aS'B  Structure-based classification\n'
+p1588
+aS'C    07025  Quinolines\n'
+p1589
+aS'C    07034  Eicosanoids\n'
+p1590
+aS'C    07035  Prostaglandins\n'
+p1591
+aS'B  Skeleton-based classification\n'
+p1592
+aS'C    07110  Benzoic acid family\n'
+p1593
+aS'C    07112  1,2-Diphenyl substitution family\n'
+p1594
+aS'C    07114  Naphthalene family\n'
+p1595
+aS'C    07117  Benzodiazepine family\n'
+p1596
+atba(lp1597
+g14
+(g15
+(dp1598
+g17
+g18
+(g19
+(I0
+tS'b'
+tRp1599
+(I1
+(L5L
+tg22
+I00
+(lp1600
+g24
+aS'A'
+aS'B'
+aS'C'
+ag25
+atbsg26
+NstRp1601
+a(dp1602
+S'0.14.1'
+p1603
+(dp1604
+S'axes'
+p1605
+g13
+sS'blocks'
+p1606
+(lp1607
+(dp1608
+S'mgr_locs'
+p1609
+c__builtin__
+slice
+p1610
+(I0
+I5
+L1L
+tRp1611
+sS'values'
+p1612
+g34
+sasstbsb.
