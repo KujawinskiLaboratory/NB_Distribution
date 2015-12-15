@@ -1,13 +1,13 @@
 ,Km0_cpd,Km1_cpd,Km2_cpd,Km3_cpd,Km4_cpd,Km5_cpd
-Carbohydrate metabolism,0,9,9,0,27,50
-Lipid metabolism,2,40,52,13,36,52
-Metabolism of cofactors and vitamins,0,5,7,0,15,9
-Energy metabolism,0,0,2,0,5,2
-Amino acid metabolism,2,26,1,0,51,5
-Nucleotide metabolism,0,7,6,0,8,0
-Biosynthesis of other secondary metabolites,1,13,10,11,34,14
-Metabolism of terpenoids and polyketides,2,13,34,0,34,40
-Xenobiotics biodegradation and metabolism,2,16,5,0,75,15
-Metabolism of other amino acids,1,5,0,0,6,1
-Glycan biosynthesis and metabolism,0,2,0,0,0,1
+Carbohydrate metabolism,0,0,27,9,9,50
+Lipid metabolism,2,13,36,40,52,52
+Metabolism of cofactors and vitamins,0,0,15,5,7,9
+Energy metabolism,0,0,5,0,2,2
+Amino acid metabolism,2,0,51,26,1,5
+Nucleotide metabolism,0,0,8,7,6,0
+Biosynthesis of other secondary metabolites,1,11,34,13,10,14
+Metabolism of terpenoids and polyketides,2,0,34,13,34,40
+Xenobiotics biodegradation and metabolism,2,0,75,16,5,15
+Metabolism of other amino acids,1,0,6,5,0,1
+Glycan biosynthesis and metabolism,0,0,0,2,0,1
 Global and overview maps,,,,,,
