@@ -273,6 +273,7 @@ C    04145  Phagosome
 C    04142  Lysosome
 C    04146  Peroxisome
 C    04140  Regulation of autophagy
+C    04139  Regulation of mitophagy - yeast
 B  Cell motility
 C    02030  Bacterial chemotaxis
 C    02040  Flagellar assembly
@@ -370,6 +371,10 @@ B  Development
 C    04320  Dorso-ventral axis formation
 C    04360  Axon guidance
 C    04380  Osteoclast differentiation
+B  Aging
+C    04211  Longevity regulating pathway - mammal
+C    04212  Longevity regulating pathway - worm
+C    04213  Longevity regulating pathway - multiple species
 B  Environmental adaptation
 C    04710  Circadian rhythm
 C    04713  Circadian entrainment
@@ -557,5 +562,5 @@ C    07117  Benzodiazepine family
 !
 #<hr>
 #<b>[ <a href="/kegg/brite.html">BRITE</a> | <a href="/kegg/kegg2.html">KEGG2</a> | <a href="/kegg/">KEGG</a> ]</b><br>
-#Last updated: December 1, 2015
+#Last updated: February 3, 2016
 #<br><br><a href="/kegg-bin/get_htext?jp08901.keg">&raquo; Japanese version</a>
