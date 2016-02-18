@@ -1,13 +1,13 @@
-,Km0_gene,Km1_gene,Km2_gene,Km3_gene,Km4_gene,Km5_gene
-Carbohydrate metabolism,16,7,1,12,15,164
-Lipid metabolism,4,5,4,8,8,103
-Metabolism of cofactors and vitamins,7,5,2,4,8,95
-Energy metabolism,1,2,0,6,7,35
-Amino acid metabolism,26,12,1,26,17,220
-Nucleotide metabolism,10,3,3,7,14,59
-Biosynthesis of other secondary metabolites,3,2,0,8,0,58
-Metabolism of terpenoids and polyketides,2,2,1,1,6,18
-Xenobiotics biodegradation and metabolism,3,1,2,5,4,64
-Metabolism of other amino acids,2,2,0,3,4,29
-Glycan biosynthesis and metabolism,6,0,1,5,2,23
-Global and overview maps,,,,,,
+,Km0_gene,Km1_gene,Km2_gene,Km3_gene,Km4_gene
+Carbohydrate metabolism,41,8,17,136,13
+Lipid metabolism,30,6,4,81,11
+Metabolism of cofactors and vitamins,29,10,8,67,7
+Energy metabolism,15,2,1,26,7
+Amino acid metabolism,64,26,37,158,17
+Nucleotide metabolism,20,3,8,54,11
+Biosynthesis of other secondary metabolites,19,8,5,39,0
+Metabolism of terpenoids and polyketides,10,5,1,11,3
+Xenobiotics biodegradation and metabolism,23,3,3,47,3
+Metabolism of other amino acids,11,2,2,21,4
+Glycan biosynthesis and metabolism,7,1,6,21,2
+Global and overview maps,,,,,
