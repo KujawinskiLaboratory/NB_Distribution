@@ -1,0 +1,14 @@
+description,Kmeans,type,unconnected,connected
+S2 and some S5 higher,Km0,cpd,1162,395
+S2 and some S5 higher,Km0,gene,1038,45
+S1 highest,Km1,cpd,130,17
+S1 highest,Km1,gene,578,50
+even or S4,Km2,cpd,1190,414
+even or S4,Km2,gene,4992,494
+S3 highest,Km3,cpd,133,39
+S3 highest,Km3,gene,559,51
+S5 highest,Km4,cpd,540,236
+S5 highest,Km4,gene,536,23
+massive S2,Km5,cpd,1782,312
+massive S2,Km5,gene,157,8
+,,,,
