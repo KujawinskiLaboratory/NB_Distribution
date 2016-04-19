@@ -1,5 +1,5 @@
 #make one py file with all the plotting functions and information gathering
-#KLongnecker, 13 April 2016, updated 4/15/2016
+#KLongnecker, 13 April 2016, updated 4/15/2016, updated 4/18/2016
 import pandas as pd
 import os
 import re
@@ -37,17 +37,23 @@ def gatherDetails(makeNclusters,trimPath,forRelatedness,folderName,CO_fromMATLAB
         directoryPDF = folderName + str(kn) + '/pathway_files'
         if not os.path.exists(directoryPDF):
             os.makedirs(directoryPDF)
+        else:
+            raise ValueError('Krista - be careful, this folder already exists')
 
         #check if the directories exist, one for reaction files
         directoryPNG = folderName + str(kn) + '/reaction_files'
         if not os.path.exists(directoryPNG):
             os.makedirs(directoryPNG) 
-            
+        else:
+            raise ValueError('Krista - be careful, this folder already exists')
+                       
         #check if the directories exist, one for species 
         directorySpecies = folderName + str(kn) + '/species_files'
         if not os.path.exists(directorySpecies):
             os.makedirs(directorySpecies) 
-        
+        else:
+            raise ValueError('Krista - be careful, this folder already exists')
+                    
         for item in trimPath: #searching within one pathway at a time
             plotPathway = [] #gather up yes/no and will only plot if have linked genes/mtabs    
             genes = getKfrom_ko(item)
